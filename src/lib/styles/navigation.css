@@ -1,0 +1,404 @@
+/* ANNOUNCEMENT BAR */
+
+.announcement-bar {
+    min-height: 32px;
+    padding: 0 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    background: var(--dark);
+    color: var(--white);
+
+    font-size: 0.6rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+.announcement-bar p {
+    margin: 0;
+}
+
+.announcement-bar a {
+    color: var(--pink);
+
+    transition: color 0.15s ease;
+}
+
+.announcement-bar a:hover {
+    color: var(--white);
+}
+
+
+/* MAIN HEADER */
+
+.navbar {
+    min-height: 92px;
+    padding: 0 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--cream);
+    border-bottom: 1px solid #d8d0cb;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: clamp(1.4rem, 2vw, 2rem);
+    font-weight: 900;
+    letter-spacing: -0.07em;
+
+    transition: color 0.15s ease;
+}
+
+.logo:hover {
+    color: var(--hot-pink);
+}
+
+
+/* HEADER ACTIONS */
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.icon-button {
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+
+    border: 0;
+    background: transparent;
+    color: var(--dark);
+
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+
+    cursor: pointer;
+
+    transition: color 0.15s ease;
+}
+
+.icon-button:hover {
+    color: var(--hot-pink);
+}
+
+.icon-button svg {
+    width: 19px;
+    height: 19px;
+
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.cart-button {
+    position: relative;
+}
+
+.cart-button strong {
+    min-width: 17px;
+    height: 17px;
+
+    padding: 0 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: var(--hot-pink);
+    color: var(--white);
+
+    font-size: 0.55rem;
+}
+
+
+/* PRIMARY NAVIGATION */
+
+.primary-nav {
+    background: var(--cream);
+    border-bottom: var(--border);
+}
+
+.nav-inner {
+    min-height: 48px;
+    padding: 0 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(1.5rem, 4vw, 4rem);
+}
+
+.nav-inner a {
+    padding: 0.9rem 0;
+
+    position: relative;
+
+    font-size: 0.68rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.nav-inner a::after {
+    width: 0;
+    height: 2px;
+
+    content: "";
+
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+
+    background: var(--hot-pink);
+
+    transition: width 0.2s ease;
+}
+
+.nav-inner a:hover::after {
+    width: 100%;
+}
+
+.nav-inner a:hover {
+    color: var(--hot-pink);
+}
+
+
+/* SEARCH */
+
+.search-panel {
+    padding: 2rem 5vw;
+
+    background: var(--white);
+    border-bottom: var(--border);
+
+    position: absolute;
+    top: 124px;
+    left: 0;
+    right: 0;
+
+    z-index: 99;
+}
+
+.search-panel form {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.search-panel label {
+    display: block;
+    margin-bottom: 0.8rem;
+
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+.search-input {
+    display: flex;
+
+    border: 2px solid var(--dark);
+}
+
+.search-input input {
+    min-width: 0;
+
+    flex: 1;
+
+    padding: 1rem;
+
+    border: 0;
+    outline: 0;
+
+    background: transparent;
+
+    font: inherit;
+    font-size: 0.9rem;
+}
+
+.search-input button {
+    padding: 0 1.5rem;
+
+    border: 0;
+    background: var(--dark);
+    color: var(--white);
+
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+
+    cursor: pointer;
+}
+
+.search-input button:hover {
+    background: var(--hot-pink);
+}
+
+
+/* MOBILE MENU */
+
+.menu-button {
+    display: none;
+
+    width: 30px;
+
+    padding: 0;
+
+    border: 0;
+    background: transparent;
+
+    cursor: pointer;
+}
+
+.menu-button span {
+    width: 25px;
+    height: 2px;
+
+    display: block;
+
+    background: var(--dark);
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.menu-button span + span {
+    margin-top: 5px;
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+    .header-actions {
+        gap: 1rem;
+    }
+
+    .icon-button span {
+        display: none;
+    }
+
+    .nav-inner {
+        gap: 2rem;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+    .announcement-bar {
+        min-height: 30px;
+
+        padding: 0 1rem;
+
+        font-size: 0.5rem;
+
+        text-align: center;
+    }
+
+    .announcement-bar a {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 72px;
+
+        padding: 0 6vw;
+    }
+
+    .header-actions {
+        margin-left: auto;
+        margin-right: 1.25rem;
+    }
+
+    .account-button {
+        display: none;
+    }
+
+    .cart-button svg {
+        width: 21px;
+        height: 21px;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .primary-nav {
+        display: none;
+
+        border-bottom: var(--border);
+    }
+
+    .navbar.menu-open + .primary-nav {
+        display: block;
+    }
+
+    .nav-inner {
+        padding: 1.25rem 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .nav-inner a {
+        padding: 1rem 6vw;
+
+        font-size: 0.8rem;
+    }
+
+    .nav-inner a::after {
+        display: none;
+    }
+
+    .nav-inner a:hover {
+        background: var(--pink);
+        color: var(--dark);
+    }
+
+    .search-panel {
+        top: 102px;
+
+        padding: 1.5rem 6vw;
+    }
+
+    .search-input {
+        flex-direction: column;
+    }
+
+    .search-input button {
+        padding: 1rem;
+    }
+
+    .navbar.menu-open .menu-button span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .navbar.menu-open .menu-button span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar.menu-open .menu-button span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+}

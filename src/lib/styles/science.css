@@ -1,0 +1,117 @@
+.science-header {
+    padding: 9vw 8vw;
+
+    background: var(--orange);
+}
+
+.science-header h1 {
+    margin: 0;
+
+    font-size: clamp(5rem, 11vw, 11rem);
+}
+
+.science-header h1 span {
+    color: var(--white);
+}
+
+.science-content {
+    padding: 10vw 8vw;
+
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 8vw;
+
+    background: var(--cream);
+}
+
+.science-number {
+    margin: 0;
+
+    font-size: clamp(8rem, 16vw, 16rem);
+    font-weight: 900;
+    line-height: 0.75;
+    letter-spacing: -0.1em;
+
+    color: var(--hot-pink);
+}
+
+.science-label {
+    margin-top: 2rem;
+
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+}
+
+.science-copy {
+    max-width: 700px;
+}
+
+.science-copy h2 {
+    margin-bottom: 3rem;
+
+    font-size: clamp(3rem, 5vw, 5rem);
+}
+
+.science-copy p {
+    margin-bottom: 2rem;
+
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.classified {
+    padding: 10vw 8vw;
+
+    background: var(--dark);
+    color: var(--white);
+
+    text-align: center;
+}
+
+.classified h2 {
+    margin-bottom: 3rem;
+
+    font-size: clamp(4rem, 9vw, 9rem);
+
+    color: var(--pink);
+}
+
+.classified p:not(.eyebrow) {
+    margin: 0 auto 3rem;
+
+    max-width: 600px;
+
+    line-height: 1.5;
+}
+
+.classified span {
+    padding: 0.7rem 1rem;
+
+    display: inline-block;
+
+    border: 1px solid var(--pink);
+
+    color: var(--pink);
+
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+}
+
+@media (max-width: 800px) {
+    .science-header,
+    .science-content,
+    .classified {
+        padding: 18vw 7vw;
+    }
+
+    .science-content {
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+
+    .science-number {
+        font-size: 35vw;
+    }
+}

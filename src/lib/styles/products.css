@@ -1,0 +1,140 @@
+.products-page {
+    padding: 7vw 6vw;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.2rem;
+}
+
+.product-card {
+    min-height: 500px;
+
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    border: 3px solid var(--dark);
+
+    overflow: hidden;
+    position: relative;
+
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card:nth-child(-n + 3) {
+    grid-column: span 2;
+}
+
+.product-card:nth-child(n + 4) {
+    grid-column: span 3;
+}
+
+.product-number {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+.product-orb {
+    width: 190px;
+    height: 190px;
+
+    border: 3px solid var(--dark);
+    border-radius: 50%;
+
+    position: absolute;
+    top: 42%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-orb {
+    transform: translate(-50%, -50%) scale(1.08);
+}
+
+.product-information {
+    position: relative;
+    z-index: 1;
+}
+
+.product-information h2 {
+    max-width: 400px;
+
+    margin-bottom: 0.8rem;
+
+    font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+.product-information span {
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.traditional {
+    background: var(--pink);
+}
+
+.strawberry {
+    background: #ff6f91;
+}
+
+.lavender {
+    background: #c7a6e8;
+}
+
+.orange {
+    background: var(--orange);
+}
+
+.blue {
+    background: #72b7ef;
+}
+
+.products-footer {
+    padding: 7vw 8vw;
+
+    background: var(--dark);
+    color: var(--white);
+
+    text-align: center;
+}
+
+.products-footer p {
+    margin: 0;
+
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    line-height: 1.2;
+}
+
+.products-footer strong {
+    color: var(--pink);
+}
+
+@media (max-width: 800px) {
+    .products-page {
+        padding: 12vw 6vw;
+
+        grid-template-columns: 1fr;
+    }
+
+    .product-card:nth-child(n) {
+        grid-column: span 1;
+    }
+
+    .product-card {
+        min-height: 420px;
+    }
+}
