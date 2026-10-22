@@ -150,81 +150,12 @@
     color: var(--white);
 }
 
-/* Responsive legacy rules pending selector-level cleanup */
-/* RESPONSIVE */
-
 @media (max-width: 800px) {
-    .careers-intro,
-    .sustainability-content,
-    .partnership-intro,
-    .press-content,
-    .dei-content {
-        padding: 18vw 7vw;
-
-        grid-template-columns: 1fr;
-        gap: 4rem;
-    }
-
-    .sustainability-stats {
-        grid-template-columns: 1fr;
-    }
-
-    .sustainability-stats article {
-        border-right: 0;
-        border-bottom: 1px solid #444;
-    }
-
-    .commitment-grid,
-    .partnership-grid,
-    .dei-values {
-        grid-template-columns: 1fr;
-    }
-
-    .commitment-grid article,
-    .partnership-grid article,
-    .dei-values article {
-        border-left: 2px solid var(--dark);
-    }
-
-    .contact-grid {
-        padding: 12vw 7vw;
-
-        grid-template-columns: 1fr;
-    }
-
-    .contact-grid article,
-    .contact-grid article:nth-child(3),
-    .contact-grid article:nth-child(4) {
-        border-left: 2px solid var(--dark);
-        border-bottom: 0;
-    }
-
-    .contact-grid article:last-child {
-        border-bottom: 2px solid var(--dark);
-    }
-
-    .job {
-        align-items: flex-start;
-        gap: 2rem;
-        flex-direction: column;
-    }
-
-    .legal-header {
-        padding: 18vw 7vw 14vw;
-    }
-
-    .legal-content {
-        padding: 15vw 7vw;
-    }
-
-    .careers-cta,
-    .contact-notice,
-    .press-kit {
-        padding: 18vw 7vw;
-    }
-
-    .dei-values {
-        padding: 0 7vw 15vw;
-    }
+  .careers-intro { padding: 18vw 7vw; grid-template-columns: 1fr; gap: 3rem; }
+  .job-listings, .careers-cta { padding: 12vw 7vw; }
+  .job { align-items: flex-start; gap: 1.25rem; flex-direction: column; }
+  .job > div { min-width: 0; }
+  .job h3 { overflow-wrap: anywhere; }
+  .careers-cta .button { max-width: 100%; white-space: normal; }
 }
 </style>
