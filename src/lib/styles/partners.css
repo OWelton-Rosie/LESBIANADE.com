@@ -512,9 +512,11 @@
 
 .partners-classified-document .redacted {
     overflow: hidden;
-    background: var(--white);
-    color: var(--white);
+    background: var(--pink);
+    color: var(--pink);
     user-select: none;
+    height: 0.8rem;
+    margin: 1.5rem 0;
 }
 
 /* DISCLAIMER */
