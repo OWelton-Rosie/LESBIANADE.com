@@ -47,7 +47,7 @@
 </script>
 
 <svelte:head>
-    <title>Products - LESBIANADE™</title>
+    <title>Products - LESBIANADE®</title>
 </svelte:head>
 
 <section class="page-header">
@@ -75,7 +75,7 @@
 </section>
 
 <section class="products-footer">
-    <p>Every LESBIANADE™ flavour contains exactly <strong>67 active ingredients.</strong></p>
+    <p>Every LESBIANADE® flavour contains exactly <strong>67 active ingredients.</strong></p>
 </section>
 
 <style>
