@@ -21,7 +21,7 @@
 
 <header class:menu-open={menuOpen} class:search-open={searchOpen}>
 	<div class="announcement-bar">
-		<p>FREE SHIPPING ON ORDERS OVER $67</p>
+		<p>FREE SHIPPING ON ORDERS OVER $50</p>
 		<a href="/company/products">SHOP NOW →</a>
 	</div>
 
@@ -43,7 +43,7 @@
 			<form action="/search" method="GET">
 				<label for="site-search">SEARCH LESBIANADE™</label>
 				<div class="search-input">
-					<input id="site-search" name="q" type="search" placeholder="Search products, ingredients, history..." autocomplete="off" />
+					<input id="site-search" name="q" type="search" placeholder="Search products, ingredients and company information..." autocomplete="off" />
 					<button type="submit">SEARCH →</button>
 				</div>
 			</form>
@@ -61,7 +61,7 @@
 			<a href="/contact" onclick={closeMenu}>CONTACT</a>
 		</div>
 	</nav>
-	<p class="nav-disclaimer">*Shipping, progress, and the word “free” are subject to applicable internal definitions.</p>
+	<p class="nav-disclaimer">*Shipping, progress, and the word “free” are terms and conditions apply.</p>
 </header>
 
 <style>
