@@ -21,8 +21,8 @@
 
 <header class:menu-open={menuOpen} class:search-open={searchOpen}>
 	<div class="announcement-bar">
-		<p>Q4 HYDRATION ALIGNMENT: 67% COMPLETE · FREE SHIPPING OVER $67*</p>
-		<a href="/company/products">REALISE VALUE →</a>
+		<p>FREE SHIPPING ON ORDERS OVER $67</p>
+		<a href="/company/products">SHOP NOW →</a>
 	</div>
 
 	<div class="navbar">
@@ -30,7 +30,7 @@
 		<div class="header-actions">
 			<button class="icon-button search-button" aria-label="Search" aria-expanded={searchOpen} onclick={toggleSearch}>
 				<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
-				<span>SEARCH THE ECOSYSTEM</span>
+				<span>SEARCH</span>
 			</button>
 		</div>
 		<button class="menu-button" type="button" aria-label="Toggle navigation" aria-expanded={menuOpen} onclick={toggleMenu}>
@@ -41,10 +41,10 @@
 	{#if searchOpen}
 		<div class="search-panel">
 			<form action="/search" method="GET">
-				<label for="site-search">SEARCH THE LESBIANADE™ KNOWLEDGE ECOSYSTEM</label>
+				<label for="site-search">SEARCH LESBIANADE™</label>
 				<div class="search-input">
-					<input id="site-search" name="q" type="search" placeholder="Products, synergies, ingredient 67..." autocomplete="off" />
-					<button type="submit">INITIATE SEARCH →</button>
+					<input id="site-search" name="q" type="search" placeholder="Search products, ingredients, history..." autocomplete="off" />
+					<button type="submit">SEARCH →</button>
 				</div>
 			</form>
 		</div>
@@ -52,13 +52,13 @@
 
 	<nav class="primary-nav">
 		<div class="nav-inner">
-			<a href="/company/products" onclick={closeMenu}>PORTFOLIO</a>
-			<a href="/company/science" onclick={closeMenu}>R&amp;D</a>
-			<a href="/company/partners" onclick={closeMenu}>STRATEGIC ALLIANCES</a>
-			<a href="/company/history" onclick={closeMenu}>CORPORATE MEMORY</a>
-			<a href="/company/sustainability" onclick={closeMenu}>ESG</a>
-			<a href="/company/careers" onclick={closeMenu}>TALENT</a>
-			<a href="/contact" onclick={closeMenu}>STAKEHOLDER ACCESS</a>
+			<a href="/company/products" onclick={closeMenu}>PRODUCTS</a>
+			<a href="/company/science" onclick={closeMenu}>INGREDIENTS</a>
+			<a href="/company/partners" onclick={closeMenu}>PARTNERS</a>
+			<a href="/company/history" onclick={closeMenu}>OUR HISTORY</a>
+			<a href="/company/sustainability" onclick={closeMenu}>SUSTAINABILITY</a>
+			<a href="/company/careers" onclick={closeMenu}>CAREERS</a>
+			<a href="/contact" onclick={closeMenu}>CONTACT</a>
 		</div>
 	</nav>
 	<p class="nav-disclaimer">*Shipping, progress, and the word “free” are subject to applicable internal definitions.</p>
