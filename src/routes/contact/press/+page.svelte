@@ -45,3 +45,78 @@
 	<a href="mailto:press@lesbianade.com?subject=Press%20Kit%20Request" class="button primary">REQUEST APPROVED MATERIALS →</a>
 	<p class="press-footnote">Please allow 3–5 business quarters. Embargoes are binding until they are not.</p>
 </section>
+
+<style>
+/* GENERAL CONTENT SECTIONS */
+
+.careers-intro,
+.sustainability-content,
+.partnership-intro,
+.press-content,
+.dei-content {
+    padding: 10vw 8vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8vw;
+}
+
+.careers-intro h2,
+.sustainability-content h2,
+.partnership-intro h2,
+.press-content h2,
+.dei-content h2 {
+    font-size: clamp(3.5rem, 7vw, 7rem);
+}
+
+.careers-intro h2 span,
+.sustainability-content h2 span,
+.dei-content h2 span {
+    color: var(--hot-pink);
+}
+
+.careers-copy p,
+.sustainability-content > div:last-child p,
+.partnership-intro > div:last-child p,
+.press-content > div:first-child p,
+.dei-content > div:last-child p {
+    max-width: 650px;
+
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.careers-copy p + p,
+.sustainability-content > div:last-child p + p,
+.partnership-intro > div:last-child p + p,
+.dei-content > div:last-child p + p {
+    margin-top: 2rem;
+}
+
+/* PRESS */
+
+.press-content {
+    background: var(--cream);
+}
+
+.press-content ul {
+    padding: 0;
+
+    list-style: none;
+}
+
+.press-content li {
+    padding: 1rem 0;
+
+    border-bottom: 1px solid #ccc;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .press-content { padding: 18vw 7vw; grid-template-columns: 1fr; gap: 3rem; }
+  .press-kit { padding: 18vw 7vw; }
+  .press-kit .button { max-width: 100%; white-space: normal; }
+}
+</style>

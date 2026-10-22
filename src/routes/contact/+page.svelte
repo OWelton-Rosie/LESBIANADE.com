@@ -23,3 +23,68 @@
 	<p><strong>STANDARD RESPONSE TARGET:</strong> 3–5 business days, quarters, or hydration cycles.</p>
 	<p>For partnership correspondence, use <a href="mailto:partnerships@lesbianade.com">partnerships@lesbianade.com</a>. Please do not send partnership enquiries to the partnerships department until the partnerships department has confirmed it is ready to receive them.</p>
 </section>
+
+<style>
+/* CONTACT */
+
+.contact-grid {
+    padding: 8vw;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-grid article {
+    min-height: 350px;
+
+    padding: 3rem;
+
+    border-top: 2px solid var(--dark);
+    border-right: 2px solid var(--dark);
+}
+
+.contact-grid article:nth-child(odd) {
+    border-left: 2px solid var(--dark);
+}
+
+.contact-grid article:nth-child(3),
+.contact-grid article:nth-child(4) {
+    border-bottom: 2px solid var(--dark);
+}
+
+.contact-grid h2 {
+    margin: 2rem 0;
+
+    font-size: 2rem;
+}
+
+.contact-grid article > p:not(.eyebrow) {
+    max-width: 450px;
+
+    line-height: 1.5;
+}
+
+.contact-grid a,
+.press-content a {
+    display: inline-block;
+
+    margin-top: 1.5rem;
+
+    color: var(--hot-pink);
+
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+}
+
+.contact-notice {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+  .contact-grid { padding: 12vw 7vw; grid-template-columns: 1fr; }
+  .contact-grid article, .contact-grid article:nth-child(3), .contact-grid article:nth-child(4) { min-height: 0; padding: 2rem 1.5rem; border-left: 2px solid var(--dark); border-bottom: 0; }
+  .contact-grid article:last-child { border-bottom: 2px solid var(--dark); }
+  .contact-notice { padding: 18vw 7vw; }
+}
+</style>

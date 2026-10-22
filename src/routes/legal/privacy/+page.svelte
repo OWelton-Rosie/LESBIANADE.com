@@ -29,3 +29,63 @@
 	<h2>8. POLICY AMENDMENTS</h2>
 	<p>This document may be updated as our privacy journey evolves. Material changes will be communicated through an appropriate channel, once the appropriate channel has been selected.</p>
 </article>
+
+<style>
+/* LEGAL */
+
+.legal-header {
+    padding: 9vw 8vw 7vw;
+
+    background: var(--dark);
+    color: var(--white);
+}
+
+.legal-header h1 {
+    margin: 0 0 2rem;
+
+    font-size: clamp(4rem, 9vw, 9rem);
+}
+
+.legal-header h1 span {
+    color: var(--pink);
+}
+
+.legal-header > p:last-child {
+    color: #aaa;
+
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+}
+
+.legal-content {
+    max-width: 900px;
+
+    padding: 8vw;
+
+    margin: 0 auto;
+}
+
+.legal-content h2 {
+    margin-top: 4rem;
+
+    font-size: 1.2rem;
+    letter-spacing: 0.02em;
+}
+
+.legal-content h2:first-child {
+    margin-top: 0;
+}
+
+.legal-content p {
+    color: #444;
+
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 800px) {
+  .legal-header { padding: 18vw 7vw 14vw; }
+  .legal-content { padding: 15vw 7vw; }
+  .legal-content h2 { overflow-wrap: anywhere; }
+}
+</style>

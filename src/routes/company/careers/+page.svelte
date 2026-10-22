@@ -34,3 +34,128 @@
 	<a href="mailto:careers@lesbianade.com?subject=Speculative%20Application" class="button primary">SUBMIT YOUR PROFESSIONAL NARRATIVE →</a>
 	<p class="careers-footnote">LESBIANADE™ is a fictional satirical company. These fictional roles are not actual vacancies.</p>
 </section>
+
+<style>
+/* GENERAL CONTENT SECTIONS */
+
+.careers-intro,
+.sustainability-content,
+.partnership-intro,
+.press-content,
+.dei-content {
+    padding: 10vw 8vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8vw;
+}
+
+.careers-intro h2,
+.sustainability-content h2,
+.partnership-intro h2,
+.press-content h2,
+.dei-content h2 {
+    font-size: clamp(3.5rem, 7vw, 7rem);
+}
+
+.careers-intro h2 span,
+.sustainability-content h2 span,
+.dei-content h2 span {
+    color: var(--hot-pink);
+}
+
+.careers-copy p,
+.sustainability-content > div:last-child p,
+.partnership-intro > div:last-child p,
+.press-content > div:first-child p,
+.dei-content > div:last-child p {
+    max-width: 650px;
+
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.careers-copy p + p,
+.sustainability-content > div:last-child p + p,
+.partnership-intro > div:last-child p + p,
+.dei-content > div:last-child p + p {
+    margin-top: 2rem;
+}
+
+/* CAREERS */
+
+.job-listings {
+    padding: 8vw;
+
+    background: var(--pink);
+}
+
+.section-heading h2 {
+    font-size: clamp(4rem, 8vw, 8rem);
+}
+
+.section-heading h2 span {
+    color: var(--white);
+}
+
+.job {
+    padding: 2rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: 2px solid var(--dark);
+}
+
+.job:last-child {
+    border-bottom: 2px solid var(--dark);
+}
+
+.job-type {
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.job h3 {
+    margin: 0.7rem 0 0;
+
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.job > a {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.careers-cta,
+.contact-notice,
+.press-kit {
+    padding: 10vw 8vw;
+
+    background: var(--orange);
+}
+
+.careers-cta h2,
+.contact-notice h2,
+.press-kit h2 {
+    margin-bottom: 3rem;
+
+    font-size: clamp(3.5rem, 7vw, 7rem);
+}
+
+.careers-cta h2 span {
+    color: var(--white);
+}
+
+@media (max-width: 800px) {
+  .careers-intro { padding: 18vw 7vw; grid-template-columns: 1fr; gap: 3rem; }
+  .job-listings, .careers-cta { padding: 12vw 7vw; }
+  .job { align-items: flex-start; gap: 1.25rem; flex-direction: column; }
+  .job > div { min-width: 0; }
+  .job h3 { overflow-wrap: anywhere; }
+  .careers-cta .button { max-width: 100%; white-space: normal; }
+}
+</style>
