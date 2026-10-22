@@ -1,1 +1,1 @@
-<span>LESBIANADE &reg;</span>
+<span>LESBIANADE&reg;</span>
