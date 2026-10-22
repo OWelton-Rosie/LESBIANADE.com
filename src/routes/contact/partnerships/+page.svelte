@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Partnerships - LESBIANADE™</title>
-	<meta name="description" content="Begin the multi-stage shared objectives process for prospective LESBIANADE™ partnerships." />
+	<title>Partnerships - LESBIANADE®</title>
+	<meta name="description" content="Begin the multi-stage shared objectives process for prospective LESBIANADE® partnerships." />
 </svelte:head>
 
 <section class="page-header">
@@ -12,7 +12,7 @@
 <section class="partnership-intro">
 	<div><p class="eyebrow">PARTNERSHIP PROGRAMME</p><h2>SYNERGY<br />IS A JOURNEY.</h2></div>
 	<div>
-		<p>Our partnership programme connects LESBIANADE™ with teams, events, organisations, retailers, and communities around the world, including prospective partners who are not yet aware of the relationship.</p>
+		<p>Our partnership programme connects LESBIANADE® with teams, events, organisations, retailers, and communities around the world, including prospective partners who are not yet aware of the relationship.</p>
 		<p>We welcome proposals that demonstrate measurable alignment with our hydration vision, strategic priorities, and the ongoing expansion of the word “ecosystem”.</p>
 		<p>Submission of a proposal does not constitute a partnership, an acknowledgement of receipt, or evidence that the proposal has been read.</p>
 	</div>
