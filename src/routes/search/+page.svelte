@@ -179,17 +179,17 @@ const entries = [
 
 <svelte:head>
     <title>
-        {query ? `Search: ${query}` : 'Search'} - LESBIANADE™
+        {query ? `Search: ${query}` : 'Search'} - LESBIANADE®
     </title>
     <meta
         name="description"
-        content="Search products, ingredients and company information from LESBIANADE™."
+        content="Search products, ingredients and company information from LESBIANADE®."
     />
 </svelte:head>
 
 <section class="page-header">
     <p class="eyebrow">EXPLORE LESBIANADE</p>
-    <h1>SEARCH <span>LESBIANADE™.</span></h1>
+    <h1>SEARCH <span>LESBIANADE®.</span></h1>
     <p>Products, ingredients, history and everything in between.</p>
 </section>
 
