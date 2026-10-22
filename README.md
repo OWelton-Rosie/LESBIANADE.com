@@ -46,4 +46,4 @@ References to organisations, teams, athletes, products, partnerships, facilities
 
 The source code is licensed under the MIT License.
 
-The LESBIANADE ® branding and creative assets are not included under the MIT License unless otherwise stated.
+The LESBIANADE® branding and creative assets are not included under the MIT License unless otherwise stated.
