@@ -47,76 +47,156 @@
 </section>
 
 <style>
-/* GENERAL CONTENT SECTIONS */
-
-.careers-intro,
-.sustainability-content,
-.partnership-intro,
-.press-content,
-.dei-content {
-    padding: 10vw 8vw;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8vw;
-}
-
-.careers-intro h2,
-.sustainability-content h2,
-.partnership-intro h2,
-.press-content h2,
-.dei-content h2 {
-    font-size: clamp(3.5rem, 7vw, 7rem);
-}
-
-.careers-intro h2 span,
-.sustainability-content h2 span,
-.dei-content h2 span {
-    color: var(--hot-pink);
-}
-
-.careers-copy p,
-.sustainability-content > div:last-child p,
-.partnership-intro > div:last-child p,
-.press-content > div:first-child p,
-.dei-content > div:last-child p {
-    max-width: 650px;
-
-    font-size: 1.15rem;
-    line-height: 1.6;
-}
-
-.careers-copy p + p,
-.sustainability-content > div:last-child p + p,
-.partnership-intro > div:last-child p + p,
-.dei-content > div:last-child p + p {
-    margin-top: 2rem;
-}
-
-/* PRESS */
-
 .press-content {
-    background: var(--cream);
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: clamp(2.5rem, 6vw, 6rem);
+	padding: clamp(4rem, 9vw, 9rem) clamp(1.5rem, 8vw, 8rem);
+	background: var(--cream);
+}
+
+.press-content > div {
+	min-width: 0;
+}
+
+.press-content h2 {
+	max-width: 12ch;
+	margin: 1rem 0 1.5rem;
+	font-size: clamp(2.5rem, 5vw, 5rem);
+	line-height: 0.92;
+	letter-spacing: -0.055em;
+}
+
+.press-content > div:first-child > p:not(.eyebrow) {
+	max-width: 42rem;
+	font-size: 1.1rem;
+	line-height: 1.7;
+}
+
+.press-content > div:first-child > p:last-child {
+	margin-top: 2rem;
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+
+.press-content a {
+	display: inline-block;
+	margin-top: 1rem;
+	color: var(--hot-pink);
+	font-weight: 900;
+	text-decoration: none;
+	overflow-wrap: anywhere;
+}
+
+.press-content a:hover {
+	text-decoration: underline;
+	text-underline-offset: 0.25em;
 }
 
 .press-content ul {
-    padding: 0;
-
-    list-style: none;
+	margin: 1.5rem 0 0;
+	padding: 0;
+	list-style: none;
+	border-top: 2px solid var(--black, #171717);
 }
 
 .press-content li {
-    padding: 1rem 0;
+	padding: 1rem 0;
+	border-bottom: 1px solid #ccc;
+	font-size: 0.95rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
 
-    border-bottom: 1px solid #ccc;
+.press-kit {
+	position: relative;
+	overflow: hidden;
+	padding: clamp(3rem, 8vw, 8rem) clamp(1.5rem, 8vw, 8rem);
+	background: var(--pink);
+	color: var(--black, #171717);
+}
 
-    font-size: 0.9rem;
-    font-weight: 700;
+.press-kit::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: clamp(6rem, 18vw, 18rem);
+	height: clamp(6rem, 18vw, 18rem);
+	border: clamp(1rem, 3vw, 2.5rem) solid currentColor;
+	border-radius: 50%;
+	content: "";
+	opacity: 0.12;
+	transform: translate(30%, -30%);
+	pointer-events: none;
+}
+
+.press-kit > * {
+	position: relative;
+}
+
+.press-kit .eyebrow {
+	max-width: 100%;
+	overflow-wrap: anywhere;
+}
+
+.press-kit h2 {
+	max-width: 14ch;
+	margin: 1.25rem 0;
+	font-size: clamp(2.75rem, 7vw, 7rem);
+	line-height: 0.9;
+	letter-spacing: -0.06em;
+	overflow-wrap: break-word;
+}
+
+.press-kit > p:not(.eyebrow, .press-footnote) {
+	max-width: 48rem;
+	font-size: clamp(1rem, 1.5vw, 1.2rem);
+	line-height: 1.7;
+}
+
+.press-kit .button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+	margin-top: 1.5rem;
+	white-space: normal;
+	text-align: center;
+	overflow-wrap: anywhere;
+}
+
+.press-kit .press-footnote {
+	margin-top: 1.5rem;
+	font-size: 0.85rem;
+	font-weight: 700;
+	line-height: 1.5;
 }
 
 @media (max-width: 800px) {
-  .press-content { padding: 18vw 7vw; grid-template-columns: 1fr; gap: 3rem; }
-  .press-kit { padding: 18vw 7vw; }
-  .press-kit .button { max-width: 100%; white-space: normal; }
+	.press-content {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 3rem;
+		padding: clamp(3.5rem, 14vw, 6rem) 7vw;
+	}
+
+	.press-content h2 {
+		font-size: clamp(2.5rem, 10vw, 4rem);
+	}
+
+	.press-kit {
+		padding: clamp(3.5rem, 14vw, 6rem) 7vw;
+	}
+}
+
+@media (max-width: 380px) {
+	.press-content,
+	.press-kit {
+		padding-right: 1.1rem;
+		padding-left: 1.1rem;
+	}
+
+	.press-kit h2 {
+		font-size: clamp(2.4rem, 11vw, 3.2rem);
+	}
 }
 </style>
