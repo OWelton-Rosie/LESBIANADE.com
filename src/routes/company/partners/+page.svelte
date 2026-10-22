@@ -104,10 +104,10 @@
 </script>
 
 <svelte:head>
-    <title>Strategic Partnerships - LESBIANADE™</title>
+    <title>Strategic Partnerships - LESBIANADE®</title>
     <meta
         name="description"
-        content="Discover the global sports partnership strategy of LESBIANADE™, the fictional leader in advanced lesbian hydration technology. Satire; no real partnerships."
+        content="Discover the global sports partnership strategy of LESBIANADE®, the fictional leader in advanced lesbian hydration technology. Satire; no real partnerships."
     />
 </svelte:head>
 
@@ -165,7 +165,7 @@
     <p class="eyebrow">A NEW PARADIGM IN SPORTS HYDRATION</p>
     <h2>PERFORMANCE IS A TEAM SPORT.<br /><span>SO IS BRAND ALIGNMENT.</span></h2>
     <p>
-        At LESBIANADE™, we believe the future of women's sport
+        At LESBIANADE®, we believe the future of women's sport
         depends on bold thinking, ambitious hydration strategies
         and the strategic deployment of premium brand language.
     </p>
@@ -213,7 +213,7 @@
                 </div>
 
                 <div class="partner-card-footer">
-                    <span>LESBIANADE™ GLOBAL HOLDINGS</span>
+                    <span>LESBIANADE® GLOBAL HOLDINGS</span>
                     <span>VIEW DOSSIER ↗</span>
                 </div>
             </article>
@@ -296,7 +296,7 @@
     <p>
         <strong>
             The organisations listed above have not partnered with
-            LESBIANADE™. This website is satire and is not affiliated
+            LESBIANADE®. This website is satire and is not affiliated
             with, endorsed by, or sponsored by any of the organisations
             listed.
         </strong>
