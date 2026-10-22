@@ -16,7 +16,7 @@
         {
             number: '03',
             name: 'LESBIAN AGENDA',
-            tagline: 'THE FUTURE IS HYDRATED.',
+            tagline: 'HYDRATION, REIMAGINED.',
             class: 'agenda'
         },
         {
