@@ -64,6 +64,13 @@
     color: var(--hot-pink);
 }
 
+.careers-copy {
+    align-self: start;
+    margin-top: 1.25rem;
+    padding-left: clamp(1.25rem, 2.5vw, 2rem);
+    border-left: 3px solid var(--hot-pink);
+}
+
 .careers-copy p,
 .sustainability-content > div:last-child p,
 .partnership-intro > div:last-child p,
@@ -75,7 +82,18 @@
     line-height: 1.6;
 }
 
-.careers-copy p + p,
+.careers-copy p {
+    margin: 0;
+    color: var(--dark);
+    font-size: clamp(1.05rem, 1.2vw, 1.2rem);
+    line-height: 1.85;
+    max-width: 38rem;
+}
+
+.careers-copy p + p {
+    margin-top: 1.4rem;
+}
+
 .sustainability-content > div:last-child p + p,
 .partnership-intro > div:last-child p + p,
 .dei-content > div:last-child p + p {
