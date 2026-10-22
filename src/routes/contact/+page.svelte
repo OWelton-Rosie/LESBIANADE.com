@@ -64,8 +64,7 @@
     line-height: 1.5;
 }
 
-.contact-grid a,
-.press-content a {
+.contact-grid a {
     display: inline-block;
 
     margin-top: 1.5rem;
