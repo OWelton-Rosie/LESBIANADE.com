@@ -59,3 +59,138 @@
 	<p>Our latest sustainability report is currently being reviewed for tone, length, and the strategic deployment of the phrase “measurable impact”.</p>
 	<a href="mailto:sustainability@lesbianade.com" class="button primary">CONTACT ESG RELATIONS →</a>
 </section>
+
+<style>
+/* GENERAL CONTENT SECTIONS */
+
+.careers-intro,
+.sustainability-content,
+.partnership-intro,
+.press-content,
+.dei-content {
+    padding: 10vw 8vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8vw;
+}
+
+.careers-intro h2,
+.sustainability-content h2,
+.partnership-intro h2,
+.press-content h2,
+.dei-content h2 {
+    font-size: clamp(3.5rem, 7vw, 7rem);
+}
+
+.careers-intro h2 span,
+.sustainability-content h2 span,
+.dei-content h2 span {
+    color: var(--hot-pink);
+}
+
+.careers-copy p,
+.sustainability-content > div:last-child p,
+.partnership-intro > div:last-child p,
+.press-content > div:first-child p,
+.dei-content > div:last-child p {
+    max-width: 650px;
+
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.careers-copy p + p,
+.sustainability-content > div:last-child p + p,
+.partnership-intro > div:last-child p + p,
+.dei-content > div:last-child p + p {
+    margin-top: 2rem;
+}
+
+/* SUSTAINABILITY */
+
+.sustainability-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    background: var(--dark);
+    color: var(--white);
+}
+
+.sustainability-stats article {
+    padding: 5vw;
+
+    border-right: 1px solid #444;
+}
+
+.sustainability-stats strong {
+    display: block;
+
+    color: var(--pink);
+
+    font-size: clamp(4rem, 8vw, 8rem);
+    line-height: 0.8;
+    letter-spacing: -0.08em;
+}
+
+.sustainability-stats span {
+    display: block;
+
+    margin-top: 2rem;
+
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.sustainability-commitments {
+    padding: 8vw;
+
+    background: var(--cream);
+}
+
+.commitment-grid,
+.partnership-grid,
+.dei-values {
+    margin-top: 4rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.commitment-grid article,
+.partnership-grid article,
+.dei-values article {
+    padding: 2rem;
+
+    border-top: 2px solid var(--dark);
+    border-right: 2px solid var(--dark);
+}
+
+.commitment-grid article:first-child,
+.partnership-grid article:first-child,
+.dei-values article:first-child {
+    border-left: 2px solid var(--dark);
+}
+
+.commitment-grid span,
+.partnership-grid span,
+.dei-values strong {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.commitment-grid h3,
+.partnership-grid h3,
+.dei-values h3 {
+    margin-top: 3rem;
+
+    font-size: 1.2rem;
+}
+
+.commitment-grid p,
+.partnership-grid p,
+.dei-values p {
+    line-height: 1.5;
+}
+</style>
