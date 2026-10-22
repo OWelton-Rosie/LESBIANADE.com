@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Terms, Conditions &amp; Interpretive Flexibility - LESBIANADE™</title>
+	<title>Terms, Conditions &amp; Additional Terms - LESBIANADE™</title>
 	<meta name="description" content="The fictional terms governing access to the LESBIANADE™ satirical corporate experience." />
 </svelte:head>
 
@@ -13,7 +13,7 @@
 <article class="legal-content">
 	<p><strong>READ THIS FIRST:</strong> LESBIANADE™ is a fictional satirical beverage company. This page is a comedic prop, not legal advice or a genuine contract for products or services.</p>
 	<h2>1. ACCEPTANCE OF THE EXPERIENCE</h2>
-	<p>By accessing this website, you acknowledge that you have accessed this website. Any further interpretation of that acknowledgement shall be referred to the Committee for Interpretive Flexibility.</p>
+	<p>By accessing this website, you acknowledge that you have accessed this website. Any further interpretation of that acknowledgement shall be referred to the Committee for Additional Terms.</p>
 	<h2>2. AUTHORISED USE</h2>
 	<p>You agree to use this website lawfully, responsibly, and without disrupting the carefully maintained illusion of corporate operational maturity.</p>
 	<h2>3. INTELLECTUAL PROPERTY &amp; BRAND ARCHITECTURE</h2>
@@ -25,7 +25,7 @@
 	<h2>6. LIMITATION OF NARRATIVE LIABILITY</h2>
 	<p>To the extent permitted by the laws of satire, no fictional committee accepts responsibility for any reader's interpretation of a fictional committee's fictional statement.</p>
 	<h2>7. CONTACT LEGAL</h2>
-	<p>Questions regarding this fictional document may be directed to <a href="mailto:legal@lesbianade.com">legal@lesbianade.com</a>. Please allow 3–5 business quarters for a non-binding acknowledgement.</p>
+	<p>Questions regarding this fictional document may be directed to <a href="mailto:legal@lesbianade.com">legal@lesbianade.com</a>. Please allow 5 business days for a non-binding acknowledgement.</p>
 </article>
 
 <style>
