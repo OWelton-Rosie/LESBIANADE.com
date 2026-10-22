@@ -21,6 +21,7 @@
                 <a href="/company/partners">OUR PARTNERS</a>
                 <a href="/company/science">OUR SCIENCE</a>
                 <a href="/company/sustainability">SUSTAINABILITY</a>
+                <a href="/company/careers">CAREERS</a>
             </div>
 
             <div class="footer-column">
@@ -37,7 +38,6 @@
                 <a href="/contact">CONTACT US</a>
                 <a href="/contact/press">PRESS INQUIRIES</a>
                 <a href="/contact/partnerships">PARTNERSHIPS</a>
-                <a href="/careers">CAREERS</a>
             </div>
         </div>
     </div>
