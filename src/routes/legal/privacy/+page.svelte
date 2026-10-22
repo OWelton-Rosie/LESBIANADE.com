@@ -6,7 +6,7 @@
 <section class="legal-header">
 	<p class="eyebrow">LEGAL &amp; DATA GOVERNANCE · POLICY 067-P</p>
 	<h1>PRIVACY<br /><span>FRAMEWORK.</span></h1>
-	<p>Last updated: 22 October 2026 · Version 6.7 · Previous versions unavailable pending review</p>
+	<p>Last updated: 22 October 2026</p>
 	<p>CLASSIFICATION: PUBLIC</p>
 </section>
 
@@ -21,7 +21,7 @@
 	<h2>4. THIRD-PARTY SERVICES</h2>
 	<p>We do not sell personal information to third parties in this fictional policy. We may, however, refer to third parties extensively in hypothetical discussions of business relationships.</p>
 	<h2>5. RETENTION &amp; DELETION</h2>
-	<p>Information is retained for as long as necessary, appropriate, proportionate, or useful to a committee tasked with deciding whether it remains necessary, appropriate, proportionate, or useful.</p>
+	<p>We retain information only for as long as needed for the purpose it was collected, or as required by applicable law.</p>
 	<h2>6. YOUR RIGHTS</h2>
 	<p>You may ask questions about your information. Your request will be reviewed by the appropriate team.</p>
 	<h2>7. CONTACT THE PRIVACY OFFICE</h2>
