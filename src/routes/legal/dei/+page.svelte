@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>People, Belonging &amp; Inclusion Strategy - LESBIANADE™</title>
+	<title>People &amp; Inclusion - LESBIANADE™</title>
 	<meta name="description" content="LESBIANADE™'s fictional people and inclusion framework, including a strategic roadmap for belonging, respect, and committee formation." />
 </svelte:head>
 
@@ -7,15 +7,15 @@
 	<p class="eyebrow">PEOPLE &amp; CULTURE · FRAMEWORK 067-DEI</p>
 	<h1>EVERYONE<br /><span>BELONGS.*</span></h1>
 	<p>We believe great ideas come from people with different experiences, perspectives, and backgrounds.</p>
-	<p>*Belonging is subject to the availability of a suitable working group.</p>
+	<p>We are committed to building a workplace where people are treated fairly and with respect.</p>
 </section>
 
 <section class="dei-content">
 	<div><p class="eyebrow">OUR COMMITMENT</p><h2>DIFFERENT<br />BY <span>DESIGN.</span></h2></div>
 	<div>
 		<p>LESBIANADE™ is committed to creating an environment where people can contribute, grow, and be themselves, preferably without needing to complete Form HR-067B in triplicate.</p>
-		<p>We seek to build teams that reflect the communities we serve and to ensure everyone has an equal opportunity to participate in our organisation, including participation in meetings about participation.</p>
-		<p>Our inclusion strategy is embedded across recruitment, employment, partnerships, suppliers, and wider business activities. Implementation is overseen by a cross-functional taskforce reporting to a steering committee that reports to a committee about steering.</p>
+		<p>We seek to build teams that reflect the communities we serve and to ensure everyone has an equal opportunity to participate in our organisation, and to make sure people can contribute fully to their work.</p>
+		<p>Our inclusion strategy is embedded across recruitment, employment, partnerships, suppliers, and wider business activities. We aim to build an inclusive workplace through fair recruitment, respectful conduct and ongoing review of our policies.</p>
 	</div>
 </section>
 
@@ -28,7 +28,7 @@
 <section class="contact-notice">
 	<p class="eyebrow">ACCOUNTABILITY &amp; CONTINUOUS IMPROVEMENT</p>
 	<h2>WE ARE LISTENING.</h2>
-	<p>Feedback is welcomed through the appropriate channel, which is currently being evaluated by the Employee Voice Optimisation Workstream.</p>
+	<p>We welcome feedback from employees and invite people to contact our team with questions or suggestions.</p>
 	<a href="mailto:people@lesbianade.com" class="button primary">CONTACT PEOPLE &amp; CULTURE →</a>
 </section>
 
