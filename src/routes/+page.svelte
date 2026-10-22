@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>LESBIANADE™ — Hydration with a Point of View</title>
+	<title>LESBIANADE™ — FUEL THE UPRISING.™</title>
 	<meta name="description" content="Discover LESBIANADE™, a fictional sports hydration brand established in 1967 on the Greek island of Lesbos." />
 </svelte:head>
 
