@@ -512,9 +512,11 @@
 
 .partners-classified-document .redacted {
     overflow: hidden;
-    background: var(--white);
-    color: var(--white);
+    background: var(--pink);
+    color: var(--pink);
     user-select: none;
+    height: 0.8rem;
+    margin: 1.5rem 0;
 }
 
 /* DISCLAIMER */
@@ -705,7 +707,8 @@
 
 
 .partnership-enquiries {
-	margin-top: 5rem;
+	margin-top: 0;
+	border-top: 5rem solid var(--white);
 	background: var(--dark);
 	color: var(--cream);
 	border: 1px solid var(--dark);
@@ -796,7 +799,8 @@
 
 @media (max-width: 600px) {
 	.partnership-enquiries {
-		margin-top: 3rem;
+		margin-top: 0;
+		border-top-width: 3rem;
 	}
 
 	.enquiries-topline,

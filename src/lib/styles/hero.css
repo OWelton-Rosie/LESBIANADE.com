@@ -211,3 +211,54 @@
         padding: 18vw 7vw;
     }
 }
+
+/* FINE PRINT, BECAUSE LEGAL HAS A BRAND */
+
+.hero-microcopy,
+.bottle-disclaimer,
+.statement-footnote {
+    color: #44343c;
+    font-size: 0.62rem;
+    font-weight: 800;
+    line-height: 1.6;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.hero-microcopy {
+    max-width: 500px;
+    margin: 1.25rem 0 0;
+    padding-left: 0.8rem;
+    border-left: 3px solid var(--dark);
+}
+
+.bottle-disclaimer {
+    max-width: 260px;
+    margin: 2.5rem 0 0;
+    color: #5d4438;
+    font-size: 0.58rem;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.statement .statement-footnote {
+    max-width: 650px;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #51474f;
+    color: #aaa0a8;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: none;
+}
+
+@media (max-width: 800px) {
+    .hero-microcopy {
+        font-size: 0.58rem;
+    }
+
+    .bottle-disclaimer {
+        margin-top: 1.75rem;
+    }
+}
