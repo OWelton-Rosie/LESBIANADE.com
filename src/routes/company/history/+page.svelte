@@ -347,9 +347,7 @@
     <a href="/company/products">EXPLORE THE RANGE ↗</a>
 </section>
 
-
 <style>
-
 /* HISTORY — CORPORATE RECORDS DIVISION */
 
 .history-header {
@@ -933,11 +931,6 @@
     }
 }
 
-</style>
-
-
-<style>
-
 /* HISTORY — CORPORATE RECORDS DIVISION */
 
 .history-header {
@@ -1520,5 +1513,4 @@
         transition: none;
     }
 }
-
 </style>
