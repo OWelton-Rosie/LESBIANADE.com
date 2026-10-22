@@ -9,7 +9,7 @@
 
 <section class="history-header">
     <div class="history-header-top">
-        <p class="eyebrow">CORPORATE HISTORY · EST. 1967</p>
+        <p class="eyebrow">OUR HISTORY · EST. 1967</p>
         <span class="classification">COMPANY HISTORY</span>
     </div>
 
@@ -225,10 +225,9 @@
 
             <div class="timeline-content">
                 <p class="eyebrow">RESEARCH & DEVELOPMENT</p>
-                <h3>THE 67TH INGREDIENT.</h3>
+                <h3>THE FINAL INGREDIENT.</h3>
                 <p>
-                    Following years of intensive research, the
-                    laboratory confirms the existence of a
+                    Following years of product development, our research team confirmed the addition of a
                     sixty-seventh active ingredient.
                 </p>
                 <p>
