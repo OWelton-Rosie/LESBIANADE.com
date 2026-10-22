@@ -15,7 +15,7 @@
 	<h2>1. ACCEPTANCE OF THE EXPERIENCE</h2>
 	<p>By accessing this website, you acknowledge that you have accessed this website. Any further interpretation of that acknowledgement shall be referred to the Committee for Additional Terms.</p>
 	<h2>2. AUTHORISED USE</h2>
-	<p>You agree to use this website lawfully, responsibly, and without disrupting the carefully maintained illusion of corporate operational maturity.</p>
+	<p>You must not misuse the website, attempt to disrupt its operation, or use it for unlawful purposes.</p>
 	<h2>3. INTELLECTUAL PROPERTY &amp; BRAND ARCHITECTURE</h2>
 	<p>LESBIANADE™, its fictional products, invented programmes, and corporate terminology form part of this satirical experience. No statement on this website should be interpreted as evidence of a real product, partnership, scientific finding, or commercial relationship.</p>
 	<h2>4. SATIRE, PARODY &amp; NARRATIVE CONTROL</h2>
@@ -23,7 +23,7 @@
 	<h2>5. NO PERFORMANCE REPRESENTATIONS</h2>
 	<p>Statements about hydration, performance, innovation, and synergies are fictional marketing language. They are not independently verified scientific claims, and the phrase “67 active ingredients” should not be treated as nutritional or medical information.</p>
 	<h2>6. LIMITATION OF NARRATIVE LIABILITY</h2>
-	<p>To the extent permitted by the laws of satire, no fictional committee accepts responsibility for any reader's interpretation of a fictional committee's fictional statement.</p>
+	<p>This website is provided for informational and satirical purposes. To the extent permitted by law, we make no guarantees about the completeness or accuracy of its fictional content.</p>
 	<h2>7. CONTACT LEGAL</h2>
 	<p>Questions regarding this fictional document may be directed to <a href="mailto:legal@lesbianade.com">legal@lesbianade.com</a>. Please allow 5 business days for a non-binding acknowledgement.</p>
 </article>
