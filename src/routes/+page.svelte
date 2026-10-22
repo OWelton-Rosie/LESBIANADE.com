@@ -319,10 +319,6 @@
     }
 }
 
-</style>
-
-
-<style>
 .hero {
     min-height: calc(100vh - 82px);
 
@@ -587,5 +583,4 @@
         margin-top: 1.75rem;
     }
 }
-
 </style>
