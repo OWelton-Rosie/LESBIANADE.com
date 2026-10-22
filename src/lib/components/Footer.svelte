@@ -6,7 +6,7 @@
 	<div class="footer-main">
 		<div class="footer-brand">
 			<div class="footer-logo"><Name /></div>
-			<h1>HYDRATION WITH A POINT OF VIEW.</h1>
+			<h1>FUEL THE UPRISING.™</h1>
 			<p class="footer-manifesto">A globally integrated hydration ecosystem with a localised commitment to highly specific thirst.</p>
 		</div>
 
