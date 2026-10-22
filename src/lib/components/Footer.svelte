@@ -44,6 +44,5 @@
 
 	<div class="footer-bottom">
 		<small>© 1967–2026 LESBIANADE™ · ALL RIGHTS RESERVED IN PRINCIPLE · NO RIGHTS HAVE BEEN INDEPENDENTLY AUDITED.</small>
-		<small>DOCUMENT FOOTER REF. 067-F · THIS FOOTER HAS ITS OWN FOOTER.</small>
 	</div>
 </footer>
