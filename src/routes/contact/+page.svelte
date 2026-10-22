@@ -10,8 +10,8 @@
 </section>
 
 <section class="contact-grid">
-	<article><p class="eyebrow">CHANNEL 01 / GENERAL</p><h2>GENERAL ENQUIRIES</h2><p>For product questions, corporate philosophy, and concerns that do not fit within any currently recognised category.</p><a href="mailto:hello@lesbianade.com">HELLO@LESBIANADE.COM →</a></article>
-	<article><p class="eyebrow">CHANNEL 02 / MEDIA</p><h2>PRESS &amp; COMMS</h2><p>For journalists seeking comment, clarification, or an on-record statement that has already been approved by legal.</p><a href="/contact/press">ENTER PRESS CENTRE →</a></article>
+	<article><p class="eyebrow">CHANNEL 01 / GENERAL</p><h2>GENERAL ENQUIRIES</h2><p>For product questions, company information and general questions.</p><a href="mailto:hello@lesbianade.com">HELLO@LESBIANADE.COM →</a></article>
+	<article><p class="eyebrow">CHANNEL 02 / MEDIA</p><h2>PRESS &amp; COMMS</h2><p>For journalists seeking comment, clarification, or an on-record statement that has already been approved by legal.</p><a href="/contact/press">PRESS & MEDIA →</a></article>
 	<article><p class="eyebrow">CHANNEL 03 / GROWTH</p><h2>PARTNERSHIPS</h2><p>For organisations interested in mutually beneficial synergies, including organisations that have not yet been informed of their interest.</p><a href="/contact/partnerships">INITIATE ALIGNMENT →</a></article>
 	<article><p class="eyebrow">CHANNEL 04 / PEOPLE</p><h2>CAREERS</h2><p>For prospective colleagues who enjoy ambiguity, matrix reporting, and meetings that could have been emails but were instead scheduled as workshops.</p><a href="/company/careers">VIEW OPPORTUNITIES →</a></article>
 </section>
