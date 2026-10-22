@@ -1,8 +1,8 @@
 # LESBIANADE®
 
-> FUEL THE UPRISING.™
+> HYDRATION WITH A POINT OF VIEW.
 
-The world's leading lesbian hydration technology company.
+A fictional beverage brand combining contemporary sports hydration with satirical corporate storytelling.
 
 ## About
 

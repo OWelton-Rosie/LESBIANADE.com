@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>LESBIANADE™ — Fuel the Uprising</title>
-	<meta name="description" content="A globally integrated hydration ecosystem delivering stakeholder-aligned fluid solutions since 1967." />
+	<title>LESBIANADE™ — Hydration with a Point of View</title>
+	<meta name="description" content="Discover LESBIANADE™, a fictional sports hydration brand established in 1967 on the Greek island of Lesbos." />
 </svelte:head>
 
 <section class="hero">
@@ -8,9 +8,7 @@
 		<p class="eyebrow">EST. 1967 · LESBOS, GREECE · LISTED ON NO EXCHANGE</p>
 		<h1>FUEL THE<br /><em>UPRISING.™</em></h1>
 		<p class="hero-text">
-			Advanced lesbian hydration technology engineered for athletes,
-			activists, strategic stakeholders, and anyone who has ever bought
-			a one-way ticket to Portland without consulting their financial adviser.
+			A distinctive sports hydration brand for active people, built around bold flavours and an unapologetically independent point of view.
 		</p>
 		<div class="hero-buttons">
 			<a href="/company/products" class="button primary">EXPLORE THE PORTFOLIO →</a>
@@ -28,7 +26,7 @@
 				<span class="bottle-active">67 ACTIVE INGREDIENTS*</span>
 			</div>
 		</div>
-		<p class="bottle-disclaimer">*Ingredient count subject to internal interpretation.</p>
+		<p class="bottle-disclaimer">*The 67-ingredient formulation is part of the site's fictional premise.</p>
 	</div>
 </section>
 
@@ -47,10 +45,10 @@
 </section>
 
 <section class="home-cta">
-	<p class="eyebrow">DISCOVER THE ENTERPRISE</p>
+	<p class="eyebrow">DISCOVER COMPANY</p>
 	<h2>HYDRATION<br /><span>FOR EVERYONE.</span></h2>
-	<p>Subject to eligibility, availability, and approval by the Hydration Alignment Committee.</p>
-	<a href="/company/products" class="button primary">VIEW THE PORTFOLIO →</a>
+	<p>Explore the range and discover the story behind the brand.</p>
+	<a href="/company/products" class="button primary">EXPLORE PRODUCTS →</a>
 </section>
 
 <style>.hero {

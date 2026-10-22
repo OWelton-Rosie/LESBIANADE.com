@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>Office of External Narrative - LESBIANADE™</title>
-	<meta name="description" content="Official statements, media resources, and approved corporate narratives from the LESBIANADE™ Office of External Narrative." />
+	<title>Press & Media - LESBIANADE™</title>
+	<meta name="description" content="Official statements, media resources, and company statements and media resources from the LESBIANADE™ Press & Media." />
 </svelte:head>
 
 <section class="page-header">
-	<p class="eyebrow">OFFICE OF EXTERNAL NARRATIVE · MEDIA TIER 2</p>
+	<p class="eyebrow">PRESS & MEDIA · MEDIA TIER 2</p>
 	<h1>WE VALUE<br /><span>YOUR COVERAGE.</span></h1>
 	<p>Especially when it is accurate, complimentary, and received by our team before publication.</p>
 </section>
@@ -16,20 +16,20 @@
 		<p>
 			For interviews, statements, product information, or requests to
 			confirm whether a previous statement should be understood as a statement,
-			contact the Office of External Narrative.
+			contact the Press & Media.
 		</p>
 		<a href="mailto:press@lesbianade.com">PRESS@LESBIANADE.COM →</a>
-		<p>All enquiries are assigned a provisional narrative alignment status upon receipt.</p>
+		<p>Our team reviews media enquiries and responds as soon as possible.</p>
 	</div>
 	<div>
 		<p class="eyebrow">APPROVED FAST FACTS · REV. 067</p>
 		<ul>
 			<li>Founded in 1967, according to company records</li>
 			<li>Headquartered beneath the Greek island of Lesbos</li>
-			<li>67 active ingredients, including one active ingredient in active dispute</li>
-			<li>Seven core flavours, subject to portfolio realignment</li>
-			<li>One underground laboratory, multiple above-ground narratives</li>
-			<li>Zero verified partnerships, despite the visual confidence of our partner directory</li>
+			<li>67 active ingredients in our fictional formulation</li>
+			<li>Seven signature flavours</li>
+			<li>Research and development based on the Greek island of Lesbos</li>
+			<li>Partnership examples on this website are fictional and are not endorsements</li>
 		</ul>
 	</div>
 </section>
@@ -43,7 +43,7 @@
 		delayed if the requested asset has not yet been approved to exist.
 	</p>
 	<a href="mailto:press@lesbianade.com?subject=Press%20Kit%20Request" class="button primary">REQUEST APPROVED MATERIALS →</a>
-	<p class="press-footnote">Please allow 3–5 business quarters. Embargoes are binding until they are not.</p>
+	<p class="press-footnote">Please allow up to five business days for a response.</p>
 </section>
 
 <style>

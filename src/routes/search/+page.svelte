@@ -56,7 +56,7 @@ const entries = [
     {
         title: 'THE SCIENCE',
         category: 'INGREDIENTS',
-        description: 'Discover our classified 67-active-ingredient formulation.',
+        description: 'Learn about our fictional 67-ingredient formulation.',
         href: '/company/science',
         keywords: 'ingredients research scientists formulation laboratory'
     },
@@ -85,7 +85,7 @@ const entries = [
         title: 'CAREERS',
         category: 'COMPANY',
         description: 'Explore opportunities at LESBIANADE.',
-        href: '/careers',
+        href: '/company/careers',
         keywords: 'jobs employment work recruitment'
     },
     {
@@ -98,7 +98,7 @@ const entries = [
     {
         title: 'PRESS INQUIRIES',
         category: 'CONTACT',
-        description: 'Information for journalists and media organisations.',
+        description: 'Media resources and information for journalists.',
         href: '/contact/press',
         keywords: 'media journalism press kit'
     },
@@ -126,7 +126,7 @@ const entries = [
     {
         title: 'DIVERSITY, EQUITY AND INCLUSION',
         category: 'LEGAL',
-        description: 'Our fictional corporate inclusion commitments.',
+        description: 'Our approach to inclusion and belonging.',
         href: '/legal/dei',
         keywords: 'diversity equity inclusion community'
     }
@@ -188,7 +188,7 @@ const entries = [
 </svelte:head>
 
 <section class="page-header">
-    <p class="eyebrow">FIND YOUR FORMULA</p>
+    <p class="eyebrow">EXPLORE LESBIANADE</p>
     <h1>SEARCH <span>LESBIANADE™.</span></h1>
     <p>Products, ingredients, history and everything in between.</p>
 </section>
@@ -235,7 +235,7 @@ const entries = [
             </div>
         {:else}
             <div class="no-results">
-                <h2>NOTHING IN THE FRIDGE.</h2>
+                <h2>NO RESULTS FOUND</h2>
                 <p>
                     We couldn't find anything matching “{query}”.
                     Try a product name, ingredient or company section.

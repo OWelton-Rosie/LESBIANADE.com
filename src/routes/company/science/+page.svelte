@@ -9,10 +9,10 @@
 
 <script>
 	const researchMetrics = [
-		{ value: '67', label: 'ACTIVE INGREDIENTS', note: 'One more than necessary' },
-		{ value: '59', label: 'YEARS OF RESEARCH', note: 'Since the original incident' },
-		{ value: '0', label: 'PEER-REVIEWED PAPERS', note: 'Peer review remains pending' },
-		{ value: '∞', label: 'PROPRIETARY SYNERGIES', note: 'Internal estimate' }
+		{ value: '67', label: 'ACTIVE INGREDIENTS', note: 'A deliberately distinctive formulation' },
+		{ value: '59', label: 'YEARS OF RESEARCH', note: 'Since the brand was founded' },
+		{ value: '0', label: 'PEER-REVIEWED PAPERS', note: 'Independent review not available' },
+		{ value: '∞', label: 'PROPRIETARY FORMULATION', note: 'Internal estimate' }
 	];
 
 	const researchProgrammes = [
@@ -116,9 +116,7 @@
 		</p>
 
 		<p>
-			The formulation is reviewed quarterly by the Internal
-			Committee for Ingredient Accountability, which meets
-			irregularly and has never reached a unanimous conclusion.
+			Our formulation is reviewed regularly as part of our ongoing product development process.
 		</p>
 
 		<div class="science-callout">
@@ -183,7 +181,7 @@
 		</div>
 
 		<p>
-			Following extensive research, the committee has determined
+			Our research team has determined
 			that ingredient number 67 is
 			<span class="redacted">████████████████████</span>
 			and may be activated only under

@@ -9,8 +9,8 @@
 
 <section class="history-header">
     <div class="history-header-top">
-        <p class="eyebrow">CORPORATE HISTORY · EST. 1967</p>
-        <span class="classification">PUBLIC RELEASE / VERSION 67.0</span>
+        <p class="eyebrow">OUR HISTORY · EST. 1967</p>
+        <span class="classification">COMPANY HISTORY</span>
     </div>
 
     <h1>WE DIDN'T<br /> <span>COME THIS FAR</span><br />TO STAY HYDRATED.</h1>
@@ -60,8 +60,8 @@
 </section>
 
 <section class="history-intro">
-    <p class="eyebrow">A MESSAGE FROM CORPORATE</p>
-    <h2>HISTORY IS WRITTEN BY THE HYDRATED.</h2>
+    <p class="eyebrow">A MESSAGE FROM OUR TEAM</p>
+    <h2>OUR STORY</h2>
 
     <p>
         In 1967, a small group of Greek scientists set out to answer
@@ -225,10 +225,9 @@
 
             <div class="timeline-content">
                 <p class="eyebrow">RESEARCH & DEVELOPMENT</p>
-                <h3>THE 67TH INGREDIENT.</h3>
+                <h3>THE FINAL INGREDIENT.</h3>
                 <p>
-                    Following years of intensive research, the
-                    laboratory confirms the existence of a
+                    Following years of product development, our research team confirmed the addition of a
                     sixty-seventh active ingredient.
                 </p>
                 <p>
@@ -269,7 +268,7 @@
                     and JOINT MORTGAGE join TRADITIONAL in the
                     company's most ambitious range to date.
                 </p>
-                <span class="timeline-tag">THE FUTURE IS HYDRATED</span>
+                <span class="timeline-tag">HYDRATION, REIMAGINED</span>
             </div>
         </article>
 

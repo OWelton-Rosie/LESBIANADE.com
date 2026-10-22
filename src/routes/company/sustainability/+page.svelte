@@ -21,15 +21,13 @@
 
 <section class="sustainability-content">
 	<div>
-		<p class="eyebrow">OUR APPROACH / ESG WORKSTREAM 04</p>
-		<h2>HYDRATION<br />WITHOUT THE<br /><span>ACCOUNTABILITY GAP.</span></h2>
+		<p class="eyebrow">OUR APPROACH</p>
+		<h2>A MORE<br />RESPONSIBLE<br /><span>APPROACH.</span></h2>
 	</div>
 	<div>
 		<p>
 			LESBIANADE™ is committed to reducing the environmental impact of
-			every bottle, box, truck, laboratory, and underground Greek facility
-			involved in our operations, subject to feasibility and a reasonable
-			expectation of positive stakeholder sentiment.
+			across packaging, manufacturing and distribution. Our approach focuses on reviewing materials, reducing waste and improving operational efficiency.
 		</p>
 		<p>
 			We continuously review packaging, manufacturing, distribution,

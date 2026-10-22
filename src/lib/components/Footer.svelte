@@ -6,19 +6,19 @@
 	<div class="footer-main">
 		<div class="footer-brand">
 			<div class="footer-logo"><Name /></div>
-			<h1>FUEL THE UPRISING.™</h1>
+			<h1>HYDRATION WITH A POINT OF VIEW.</h1>
 			<p class="footer-manifesto">A globally integrated hydration ecosystem with a localised commitment to highly specific thirst.</p>
 		</div>
 
 		<div class="footer-links">
 			<div class="footer-column">
-				<h2>THE ENTERPRISE</h2>
-				<a href="/company/history">CORPORATE MEMORY</a>
-				<a href="/company/products">PRODUCT PORTFOLIO</a>
-				<a href="/company/partners">STRATEGIC ALLIANCES</a>
+				<h2>COMPANY</h2>
+				<a href="/company/history">OUR HISTORY</a>
+				<a href="/company/products">OUR PRODUCTS</a>
+				<a href="/company/partners">PARTNERSHIPS</a>
 				<a href="/company/science">RESEARCH &amp; DEVELOPMENT</a>
-				<a href="/company/sustainability">ESG &amp; PLANETARY ALIGNMENT</a>
-				<a href="/company/careers">TALENT ECOSYSTEM</a>
+				<a href="/company/sustainability">SUSTAINABILITY</a>
+				<a href="/company/careers">CAREERS</a>
 			</div>
 			<div class="footer-column">
 				<h2>GOVERNANCE</h2>
@@ -27,19 +27,19 @@
 				<a href="/legal/dei">PEOPLE &amp; BELONGING</a>
 			</div>
 			<div class="footer-column">
-				<h2>STAKEHOLDER ACCESS</h2>
-				<a href="/contact">ENGAGEMENT CENTRE</a>
-				<a href="/contact/press">EXTERNAL NARRATIVE</a>
-				<a href="/contact/partnerships">STRATEGIC PARTNERSHIPS</a>
+				<h2>GET IN TOUCH</h2>
+				<a href="/contact">CONTACT US</a>
+				<a href="/contact/press">PRESS & MEDIA</a>
+				<a href="/contact/partnerships">PARTNERSHIPS</a>
 				<a href="mailto:partnerships@lesbianade.com">PARTNERSHIPS EMAIL</a>
 			</div>
 		</div>
 	</div>
 
 	<div class="footer-disclosure">
-		<strong>IMPORTANT CORPORATE DISCLOSURE · PLEASE READ BEFORE CONTINUING</strong>
+		<strong>ABOUT THIS WEBSITE</strong>
 		<p><Name /> is a fictional satirical beverage company. The products, research programmes, performance language, corporate metrics, facilities, vacancies, and partnerships described on this website are fictional unless explicitly stated otherwise. Named sports organisations are not affiliated with or endorsing LESBIANADE™. No actual beverage is offered for sale through this website.</p>
-		<p>All forward-looking statements are subject to uncertainty, interpretive flexibility, and the possibility that the statement was written for a joke.</p>
+		<p>This website is a work of satire. Product information, company history, partnerships and other claims are fictional unless stated otherwise.</p>
 	</div>
 
 	<div class="footer-bottom">

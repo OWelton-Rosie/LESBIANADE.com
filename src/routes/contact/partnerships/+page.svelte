@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Strategic Alliance Intake - LESBIANADE™</title>
-	<meta name="description" content="Begin the multi-stage strategic alignment process for prospective LESBIANADE™ partnerships." />
+	<title>Partnerships - LESBIANADE™</title>
+	<meta name="description" content="Begin the multi-stage shared objectives process for prospective LESBIANADE™ partnerships." />
 </svelte:head>
 
 <section class="page-header">
@@ -20,19 +20,19 @@
 
 <section class="partnership-types">
 	<div class="partnership-grid">
-		<article><span>01</span><h3>ELITE SPORT</h3><p>Performance-led fluid solutions, subject to athlete availability, committee approval, and the current definition of “performance-led”.</p></article>
-		<article><span>02</span><h3>EVENTS &amp; ACTIVATIONS</h3><p>Bring our brand architecture to your event. Please submit all proposed activations in the form of a 47-slide deck.</p></article>
-		<article><span>03</span><h3>RETAIL &amp; DISTRIBUTION</h3><p>Stock the world's most advanced lesbian hydration technology, pending the completion of a distribution strategy.</p></article>
-		<article><span>04</span><h3>COMMUNITY IMPACT</h3><p>Support local organisations through initiatives currently undergoing a brand refresh to clarify their intended impact.</p></article>
+		<article><span>01</span><h3>ELITE SPORT</h3><p>Explore potential collaborations with sports teams, clubs and athletes.</p></article>
+		<article><span>02</span><h3>EVENTS &amp; ACTIVATIONS</h3><p>Discuss product sampling, sponsorship and event activations with our team.</p></article>
+		<article><span>03</span><h3>RETAIL &amp; DISTRIBUTION</h3><p>Ask us about retail, wholesale and distribution opportunities.</p></article>
+		<article><span>04</span><h3>COMMUNITY IMPACT</h3><p>Explore opportunities to support community organisations and local initiatives.</p></article>
 	</div>
 </section>
 
 <section class="contact-notice">
 	<p class="eyebrow">STAGE 01 / EXPRESSION OF INTEREST</p>
-	<h2>INITIATE THE ALIGNMENT.</h2>
-	<p>Send a concise overview of your organisation, the proposed opportunity, and the specific synergies you believe exist. “We both like hydration” is considered a foundational, rather than differentiated, value proposition.</p>
-	<a href="mailto:partnerships@lesbianade.com?subject=Strategic%20Partnership%20Expression%20of%20Interest" class="button primary">PARTNERSHIPS@LESBIANADE.COM →</a>
-	<p>All enquiries are subject to stakeholder alignment, strategic synergy assessment, and approval by the Committee for the Evaluation of Strategic Synergies. Please allow 3–5 business quarters.</p>
+	<h2>LET'S WORK TOGETHER.</h2>
+	<p>Send a concise overview of your organisation, the proposed opportunity, and the specific partnership opportunities you believe exist. “We both like hydration” is considered a foundational, rather than differentiated, value proposition.</p>
+	<a href="mailto:partnerships@lesbianade.com?subject=Partnership%20Enquiry" class="button primary">PARTNERSHIPS@LESBIANADE.COM →</a>
+	<p>All enquiries are subject to stakeholder alignment, strategic collaboration assessment, and approval by the Committee for the Evaluation of Strategic Synergies. Please allow 3–5 business quarters.</p>
 </section>
 
 <style>
