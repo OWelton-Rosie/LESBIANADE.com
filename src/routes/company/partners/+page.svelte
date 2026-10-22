@@ -20,7 +20,7 @@
             colour: 'matildas',
             activation: 'Delivering hydration solutions at the intersection of performance and national identity.',
             metric: '100%',
-            metricLabel: 'CORPORATE CONFIDENCE',
+            metricLabel: 'OUR COMMITMENT',
             quote: '"This statement was not reviewed by the Matildas."'
         },
         {
