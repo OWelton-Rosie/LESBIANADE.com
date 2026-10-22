@@ -934,3 +934,591 @@
 }
 
 </style>
+
+
+<style>
+
+/* HISTORY — CORPORATE RECORDS DIVISION */
+
+.history-header {
+    padding: 3rem 8vw 5rem;
+    background: var(--pink);
+    border-bottom: 3px solid var(--dark);
+}
+
+.history-header-top,
+.history-header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.history-header-top {
+    margin-bottom: 5rem;
+}
+
+.history-header .eyebrow,
+.history-header-top > span {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+.classification {
+    padding: 0.65rem 0.8rem;
+    border: 2px solid var(--dark);
+    transform: rotate(2deg);
+}
+
+.history-header h1 {
+    margin: 0 0 3rem;
+    font-size: clamp(3.5rem, 9.5vw, 10rem);
+    line-height: 0.82;
+    letter-spacing: -0.075em;
+    overflow-wrap: anywhere;
+}
+
+.history-header h1 span {
+    color: var(--white);
+}
+
+.history-header-bottom {
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+.history-header-bottom p {
+    max-width: 500px;
+    margin: 0;
+    font-size: clamp(1rem, 1.8vw, 1.4rem);
+    line-height: 1.5;
+}
+
+.history-stamp {
+    flex-shrink: 0;
+    padding: 1rem;
+    border: 3px solid var(--dark);
+    font-size: 0.8rem;
+    font-weight: 900;
+    transform: rotate(-5deg);
+}
+
+.history-disclaimer {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--dark);
+}
+
+.history-disclaimer > span {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.history-disclaimer p {
+    max-width: 650px;
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+/* CORPORATE PERFORMANCE METRICS */
+
+.history-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    background: var(--dark);
+    color: var(--white);
+}
+
+.history-stats article {
+    min-height: 230px;
+    padding: 2rem;
+    border-right: 1px solid #625a56;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.history-stats article:last-child {
+    border-right: 0;
+}
+
+.stat-label {
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+}
+
+.history-stats strong {
+    color: var(--pink);
+    font-size: clamp(3rem, 5vw, 5.5rem);
+    line-height: 1;
+    letter-spacing: -0.07em;
+}
+
+.history-stats article p {
+    margin: 0;
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+}
+
+/* MESSAGE FROM CORPORATE */
+
+.history-intro {
+    padding: 9vw 15vw;
+    background: var(--cream);
+    border-bottom: 2px solid var(--dark);
+}
+
+.history-intro .eyebrow {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+.history-intro h2 {
+    max-width: 850px;
+    margin: 2rem 0;
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+}
+
+.history-intro > p:not(.eyebrow) {
+    max-width: 650px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.signature {
+    display: block;
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 2px solid var(--dark);
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1.8;
+}
+
+/* TIMELINE INTRO */
+
+.history-timeline-section {
+    padding: 7vw 8vw 9vw;
+    background: var(--cream);
+}
+
+.timeline-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.timeline-heading .eyebrow {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+.timeline-heading h2 {
+    margin: 1rem 0 0;
+    font-size: clamp(3.5rem, 8vw, 8rem);
+    line-height: 0.85;
+    letter-spacing: -0.075em;
+}
+
+.timeline-heading h2 span {
+    color: var(--hot-pink);
+}
+
+.timeline-note {
+    max-width: 220px;
+    margin: 0;
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    line-height: 1.6;
+    text-align: right;
+}
+
+/* TIMELINE ENTRIES */
+
+.timeline {
+    border-top: 3px solid var(--dark);
+}
+
+.timeline-entry {
+    display: grid;
+    grid-template-columns: 50px minmax(150px, 0.75fr) minmax(0, 1.5fr);
+    gap: 2rem;
+    padding: 3rem 0;
+    border-bottom: 1px solid #c8bfba;
+}
+
+.timeline-marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.timeline-marker span {
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.timeline-marker i {
+    width: 14px;
+    height: 14px;
+    background: var(--hot-pink);
+    border: 2px solid var(--dark);
+    border-radius: 50%;
+}
+
+.timeline-year > span {
+    display: block;
+    margin-bottom: 0.7rem;
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+}
+
+.timeline-year strong {
+    display: block;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: 0.9;
+    letter-spacing: -0.07em;
+}
+
+.timeline-content {
+    max-width: 650px;
+}
+
+.timeline-content .eyebrow {
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+.timeline-content h3 {
+    margin: 1rem 0;
+    font-size: clamp(1.7rem, 3vw, 3rem);
+    line-height: 1;
+    letter-spacing: -0.045em;
+}
+
+.timeline-content > p:not(.eyebrow) {
+    max-width: 600px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+.timeline-tag {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.65rem 0.8rem;
+    border: 1px solid var(--dark);
+    font-size: 0.6rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+}
+
+.founding {
+    background: var(--pink);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.future {
+    background: #eee5f4;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* CLASSIFIED ARCHIVES */
+
+.history-classified {
+    position: relative;
+    overflow: hidden;
+    padding: 8vw 12vw;
+    background: var(--dark);
+    color: var(--white);
+}
+
+.classified-stamp {
+    position: absolute;
+    top: 4rem;
+    right: 8vw;
+    padding: 0.8rem 1.2rem;
+    border: 4px solid #ff6f91;
+    color: #ff6f91;
+    font-size: clamp(1rem, 2vw, 1.8rem);
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    transform: rotate(9deg);
+    opacity: 0.9;
+}
+
+.history-classified > .eyebrow {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+}
+
+.history-classified h2 {
+    max-width: 900px;
+    margin: 3rem 0;
+    font-size: clamp(3rem, 8vw, 8rem);
+    line-height: 0.9;
+    letter-spacing: -0.07em;
+}
+
+.history-classified h2 span {
+    color: var(--pink);
+}
+
+.redacted-copy {
+    max-width: 750px;
+    padding-top: 2rem;
+    border-top: 1px solid #625a56;
+}
+
+.redacted-copy p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.redacted-copy span {
+    background: var(--white);
+    color: var(--white);
+    user-select: none;
+}
+
+.classified-footer {
+    display: block;
+    margin-top: 3rem;
+    color: var(--pink);
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+}
+
+/* CLOSING STATEMENT */
+
+.history-closing {
+    padding: 9vw 8vw;
+    background: var(--orange);
+    text-align: center;
+}
+
+.history-closing .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+}
+
+.history-closing h2 {
+    margin: 2rem 0;
+    font-size: clamp(3rem, 9vw, 9rem);
+    line-height: 0.85;
+    letter-spacing: -0.075em;
+}
+
+.history-closing h2 span {
+    color: var(--white);
+}
+
+.history-closing > p:not(.eyebrow) {
+    max-width: 550px;
+    margin: 2rem auto;
+    line-height: 1.7;
+}
+
+.history-closing a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--dark);
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.history-closing a:hover {
+    background: var(--dark);
+    color: var(--white);
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+    .history-stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .history-stats article:nth-child(2) {
+        border-right: 0;
+    }
+
+    .history-stats article:nth-child(-n + 2) {
+        border-bottom: 1px solid #625a56;
+    }
+
+    .history-intro {
+        padding: 12vw 9vw;
+    }
+
+    .timeline-entry {
+        grid-template-columns: 35px minmax(120px, 0.7fr) minmax(0, 1.5fr);
+        gap: 1.25rem;
+    }
+
+    .history-timeline-section {
+        padding: 10vw 7vw;
+    }
+
+    .history-classified {
+        padding: 12vw 8vw;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .history-header {
+        padding: 2rem 7vw 3rem;
+    }
+
+    .history-header-top,
+    .history-header-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .history-header-top {
+        margin-bottom: 4rem;
+        gap: 1rem;
+    }
+
+    .history-header h1 {
+        margin-bottom: 2rem;
+        font-size: clamp(3rem, 13vw, 5.5rem);
+    }
+
+    .history-header-bottom {
+        margin-bottom: 3rem;
+        gap: 1.5rem;
+    }
+
+    .history-disclaimer {
+        grid-template-columns: 1fr;
+        gap: 0.6rem;
+    }
+
+    .history-stats article {
+        min-height: 180px;
+        padding: 1.25rem;
+    }
+
+    .stat-label,
+    .history-stats article p {
+        font-size: 0.58rem;
+    }
+
+    .history-intro {
+        padding: 16vw 7vw;
+    }
+
+    .history-intro h2 {
+        font-size: clamp(2.5rem, 11vw, 4rem);
+    }
+
+    .timeline-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .timeline-note {
+        text-align: left;
+    }
+
+    .timeline-entry {
+        grid-template-columns: 28px minmax(0, 1fr);
+        gap: 1rem;
+        padding: 2.5rem 0;
+    }
+
+    .timeline-marker {
+        grid-row: 1 / span 2;
+    }
+
+    .timeline-year {
+        grid-column: 2;
+    }
+
+    .timeline-year strong {
+        font-size: 3.5rem;
+    }
+
+    .timeline-content {
+        grid-column: 2;
+    }
+
+    .timeline-content h3 {
+        font-size: clamp(1.7rem, 8vw, 2.5rem);
+    }
+
+    .founding,
+    .future {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    .history-classified {
+        padding: 20vw 7vw 14vw;
+    }
+
+    .classified-stamp {
+        position: relative;
+        top: auto;
+        right: auto;
+        display: inline-block;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+
+    .history-classified h2 {
+        margin: 2rem 0;
+        font-size: clamp(2.8rem, 12vw, 5rem);
+    }
+
+    .history-closing {
+        padding: 18vw 7vw;
+    }
+
+    .history-closing h2 {
+        font-size: clamp(2.8rem, 12vw, 5rem);
+    }
+}
+
+/* ACCESSIBILITY */
+
+@media (prefers-reduced-motion: reduce) {
+    .history-closing a {
+        transition: none;
+    }
+}
+
+</style>
