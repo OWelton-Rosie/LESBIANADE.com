@@ -77,3 +77,217 @@
 <section class="products-footer">
     <p>Every LESBIANADE™ flavour contains exactly <strong>67 active ingredients.</strong></p>
 </section>
+
+
+<style>
+
+.products-page {
+    padding: 7vw 6vw;
+
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1.2rem;
+}
+
+.product-card {
+    min-width: 0;
+    min-height: 500px;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    border: 3px solid var(--dark);
+
+    overflow: hidden;
+    position: relative;
+
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card:nth-child(-n + 3) {
+    grid-column: span 2;
+}
+
+.product-card:nth-child(n + 4) {
+    grid-column: span 3;
+}
+
+.product-number {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+.product-orb {
+    width: 190px;
+    height: 190px;
+
+    border: 3px solid var(--dark);
+    border-radius: 50%;
+
+    position: absolute;
+    top: 42%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-orb {
+    transform: translate(-50%, -50%) scale(1.08);
+}
+
+.product-information {
+    position: relative;
+    z-index: 1;
+}
+
+.product-information h2 {
+    max-width: 400px;
+    margin-bottom: 0.8rem;
+
+    font-size: clamp(1.7rem, 3.2vw, 3.5rem);
+    line-height: 0.98;
+    overflow-wrap: anywhere;
+}
+
+.product-information span {
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+}
+
+/* Product colours */
+
+.traditional {
+    background: var(--pink);
+}
+
+.carabiner {
+    background: #c8ed79;
+}
+
+.agenda {
+    background: linear-gradient(135deg, #ff8fba 0%, #ffb15e 100%);
+}
+
+.docs {
+    background: #8e294b;
+    color: var(--white);
+}
+
+.flannel {
+    background: #e87836;
+}
+
+.strawberry {
+    background: #ff6f91;
+}
+
+.mortgage {
+    background: #c7d4b7;
+}
+
+/* Keep the decorative orb visible against dark product colours */
+
+.docs .product-orb {
+    border-color: var(--white);
+}
+
+/* Footer */
+
+.products-footer {
+    padding: 7vw 8vw;
+
+    background: var(--dark);
+    color: var(--white);
+
+    text-align: center;
+}
+
+.products-footer p {
+    margin: 0;
+
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    line-height: 1.2;
+}
+
+.products-footer strong {
+    color: var(--pink);
+}
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+    .products-page {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .product-card:nth-child(n) {
+        grid-column: span 1;
+    }
+
+    .product-information h2 {
+        font-size: clamp(1.8rem, 4vw, 3rem);
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .products-page {
+        padding: 12vw 6vw;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .product-card:nth-child(n) {
+        grid-column: span 1;
+    }
+
+    .product-card {
+        min-height: 400px;
+        padding: 1.25rem;
+    }
+
+    .product-orb {
+        width: 160px;
+        height: 160px;
+    }
+
+    .product-information h2 {
+        font-size: clamp(2rem, 9vw, 3rem);
+    }
+}
+
+
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+    .product-card,
+    .product-orb {
+        transition: none;
+    }
+
+    .product-card:hover {
+        transform: none;
+    }
+
+    .product-card:hover .product-orb {
+        transform: translate(-50%, -50%);
+    }
+}
+
+</style>
