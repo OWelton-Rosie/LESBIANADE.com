@@ -18,7 +18,7 @@
             category: 'INTERNATIONAL FOOTBALL',
             tier: 'NATIONAL HYDRATION PARTNER',
             colour: 'matildas',
-            activation: 'Delivering hydration solutions at the intersection of performance and national identity.',
+            activation: 'A fictional example of a potential sports partnership.',
             metric: '100%',
             metricLabel: 'OUR COMMITMENT',
             quote: '"This statement was not reviewed by the Matildas."'
@@ -98,7 +98,7 @@
             activation: 'Building a cross-market hydration narrative with measurable narrative outcomes.',
             metric: '100%',
             metricLabel: 'NARRATIVE ALIGNMENT',
-            quote: '"The narrative has been aligned."'
+            quote: '"Partnership details are fictional and provided for satire."'
         }
     ];
 </script>
