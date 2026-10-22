@@ -518,3 +518,32 @@ header:has(.navbar) {
         transition: none;
     }
 }
+
+
+/* CORPORATE QUALIFICATIONS */
+
+.nav-disclaimer {
+    margin: 0;
+    padding: 0.55rem 5vw 0.65rem;
+    border-bottom: 1px solid #d8d0cb;
+    background: #f1e9e4;
+    color: #6c625f;
+    font-size: 0.58rem;
+    font-weight: 600;
+    line-height: 1.45;
+    letter-spacing: 0.025em;
+    text-align: center;
+}
+
+.nav-disclaimer::before {
+    content: "† ";
+    color: var(--hot-pink);
+    font-weight: 900;
+}
+
+@media (max-width: 700px) {
+    .nav-disclaimer {
+        padding: 0.55rem 6vw;
+        font-size: 0.52rem;
+    }
+}
