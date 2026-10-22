@@ -78,9 +78,7 @@
     <p>Every LESBIANADE™ flavour contains exactly <strong>67 active ingredients.</strong></p>
 </section>
 
-
 <style>
-
 .products-page {
     padding: 7vw 6vw;
 
@@ -290,11 +288,6 @@
     }
 }
 
-</style>
-
-
-<style>
-
 .products-page {
     padding: 7vw 6vw;
 
@@ -503,5 +496,4 @@
         transform: translate(-50%, -50%);
     }
 }
-
 </style>
