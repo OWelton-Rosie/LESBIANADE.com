@@ -56,7 +56,7 @@ const entries = [
     {
         title: 'THE SCIENCE',
         category: 'INGREDIENTS',
-        description: 'Discover our classified 67-active-ingredient formulation.',
+        description: 'Learn about our fictional 67-ingredient formulation.',
         href: '/company/science',
         keywords: 'ingredients research scientists formulation laboratory'
     },
@@ -85,7 +85,7 @@ const entries = [
         title: 'CAREERS',
         category: 'COMPANY',
         description: 'Explore opportunities at LESBIANADE.',
-        href: '/careers',
+        href: '/company/careers',
         keywords: 'jobs employment work recruitment'
     },
     {
@@ -98,7 +98,7 @@ const entries = [
     {
         title: 'PRESS INQUIRIES',
         category: 'CONTACT',
-        description: 'Information for journalists and media organisations.',
+        description: 'Media resources and information for journalists.',
         href: '/contact/press',
         keywords: 'media journalism press kit'
     },
