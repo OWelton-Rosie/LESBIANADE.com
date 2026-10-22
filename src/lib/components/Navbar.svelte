@@ -8,6 +8,11 @@
         menuOpen = false;
     }
 
+    function toggleMenu() {
+        menuOpen = !menuOpen;
+        searchOpen = false;
+    }
+
     function toggleSearch() {
         searchOpen = !searchOpen;
         menuOpen = false;
@@ -31,7 +36,13 @@
             </button>
         </div>
 
-        <button class="menu-button" aria-label="Toggle navigation" aria-expanded={menuOpen} onclick={() => (menuOpen = !menuOpen)}>
+        <button
+            class="menu-button"
+            type="button"
+            aria-label="Toggle navigation"
+            aria-expanded={menuOpen}
+            onclick={toggleMenu}
+        >
             <span></span>
             <span></span>
             <span></span>
