@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Contact Us - LESBIANADE™</title>
-	<meta name="description" content="Route your enquiry through the appropriate LESBIANADE™ stakeholder engagement channel." />
+	<title>Contact Us - LESBIANADE®</title>
+	<meta name="description" content="Route your enquiry through the appropriate LESBIANADE® stakeholder engagement channel." />
 </svelte:head>
 
 <section class="page-header">
