@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>Office of External Narrative - LESBIANADE™</title>
-	<meta name="description" content="Official statements, media resources, and approved corporate narratives from the LESBIANADE™ Office of External Narrative." />
+	<title>Press & Media - LESBIANADE™</title>
+	<meta name="description" content="Official statements, media resources, and company statements and media resources from the LESBIANADE™ Press & Media." />
 </svelte:head>
 
 <section class="page-header">
-	<p class="eyebrow">OFFICE OF EXTERNAL NARRATIVE · MEDIA TIER 2</p>
+	<p class="eyebrow">PRESS & MEDIA · MEDIA TIER 2</p>
 	<h1>WE VALUE<br /><span>YOUR COVERAGE.</span></h1>
 	<p>Especially when it is accurate, complimentary, and received by our team before publication.</p>
 </section>
@@ -16,7 +16,7 @@
 		<p>
 			For interviews, statements, product information, or requests to
 			confirm whether a previous statement should be understood as a statement,
-			contact the Office of External Narrative.
+			contact the Press & Media.
 		</p>
 		<a href="mailto:press@lesbianade.com">PRESS@LESBIANADE.COM →</a>
 		<p>All enquiries are assigned a provisional narrative alignment status upon receipt.</p>
