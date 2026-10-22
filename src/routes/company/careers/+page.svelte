@@ -36,75 +36,44 @@
 </section>
 
 <style>
-/* GENERAL CONTENT SECTIONS */
-
-.careers-intro,
-.sustainability-content,
-.partnership-intro,
-.press-content,
-.dei-content {
+.careers-intro {
     padding: 10vw 8vw;
-
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
     gap: 8vw;
 }
 
-.careers-intro h2,
-.sustainability-content h2,
-.partnership-intro h2,
-.press-content h2,
-.dei-content h2 {
+.careers-intro h2 {
+    margin: 0;
     font-size: clamp(3.5rem, 7vw, 7rem);
+    line-height: 0.95;
 }
 
-.careers-intro h2 span,
-.sustainability-content h2 span,
-.dei-content h2 span {
+.careers-intro h2 span {
     color: var(--hot-pink);
 }
 
 .careers-copy {
-    align-self: start;
-    margin-top: 1.25rem;
-    padding-left: clamp(1.25rem, 2.5vw, 2rem);
-    border-left: 3px solid var(--hot-pink);
-}
-
-.careers-copy p,
-.sustainability-content > div:last-child p,
-.partnership-intro > div:last-child p,
-.press-content > div:first-child p,
-.dei-content > div:last-child p {
-    max-width: 650px;
-
-    font-size: 1.15rem;
-    line-height: 1.6;
+    margin-top: 1rem;
+    padding: 0.25rem 0 0.25rem clamp(1.5rem, 3vw, 2.5rem);
+    border-left: 4px solid var(--hot-pink);
 }
 
 .careers-copy p {
+    max-width: 38rem;
     margin: 0;
     color: var(--dark);
-    font-size: clamp(1.05rem, 1.2vw, 1.2rem);
+    font-size: clamp(1.1rem, 1.35vw, 1.25rem);
     line-height: 1.85;
-    max-width: 38rem;
 }
 
 .careers-copy p + p {
-    margin-top: 1.4rem;
+    margin-top: 1.5rem;
 }
-
-.sustainability-content > div:last-child p + p,
-.partnership-intro > div:last-child p + p,
-.dei-content > div:last-child p + p {
-    margin-top: 2rem;
-}
-
-/* CAREERS */
 
 .job-listings {
     padding: 8vw;
-
     background: var(--pink);
 }
 
@@ -118,11 +87,10 @@
 
 .job {
     padding: 2rem 0;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    gap: 2rem;
     border-top: 2px solid var(--dark);
 }
 
@@ -138,29 +106,30 @@
 
 .job h3 {
     margin: 0.7rem 0 0;
-
     font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
+.job p {
+    max-width: 42rem;
+    margin: 0.75rem 0 0;
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
 .job > a {
+    flex-shrink: 0;
     font-size: 0.7rem;
     font-weight: 900;
     letter-spacing: 0.1em;
 }
 
-.careers-cta,
-.contact-notice,
-.press-kit {
+.careers-cta {
     padding: 10vw 8vw;
-
     background: var(--orange);
 }
 
-.careers-cta h2,
-.contact-notice h2,
-.press-kit h2 {
-    margin-bottom: 3rem;
-
+.careers-cta h2 {
+    margin: 0 0 3rem;
     font-size: clamp(3.5rem, 7vw, 7rem);
 }
 
@@ -168,12 +137,57 @@
     color: var(--white);
 }
 
+.careers-cta > p:not(.eyebrow):not(.careers-footnote) {
+    max-width: 42rem;
+    font-size: 1.15rem;
+    line-height: 1.75;
+}
+
+.careers-cta .button {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.careers-footnote {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
 @media (max-width: 800px) {
-  .careers-intro { padding: 18vw 7vw; grid-template-columns: 1fr; gap: 3rem; }
-  .job-listings, .careers-cta { padding: 12vw 7vw; }
-  .job { align-items: flex-start; gap: 1.25rem; flex-direction: column; }
-  .job > div { min-width: 0; }
-  .job h3 { overflow-wrap: anywhere; }
-  .careers-cta .button { max-width: 100%; white-space: normal; }
+    .careers-intro {
+        padding: 18vw 7vw;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 2rem;
+    }
+
+    .careers-copy {
+        margin-top: 0;
+        padding-left: 1.25rem;
+    }
+
+    .job-listings,
+    .careers-cta {
+        padding: 12vw 7vw;
+    }
+
+    .job {
+        align-items: flex-start;
+        gap: 1.25rem;
+        flex-direction: column;
+    }
+
+    .job > div {
+        min-width: 0;
+    }
+
+    .job h3 {
+        overflow-wrap: anywhere;
+    }
+
+    .careers-cta .button {
+        max-width: 100%;
+        white-space: normal;
+    }
 }
 </style>
