@@ -1,30 +1,30 @@
 <svelte:head>
-	<title>People &amp; Organisational Synergy - LESBIANADE™</title>
+	<title>Careers - LESBIANADE™</title>
 	<meta name="description" content="Explore career opportunities within the LESBIANADE™ hydration ecosystem and its cross-functional matrix of strategic priorities." />
 </svelte:head>
 
 <section class="page-header">
-	<p class="eyebrow">PEOPLE &amp; ORGANISATIONAL SYNERGY · TALENT PORTAL 067</p>
-	<h1>BUILD THE<br /><span>FUTURE-READY WORKFORCE.</span></h1>
-	<p>We seek high-performing individuals who can thrive in an agile, fast-paced, stakeholder-centric environment that is currently being redefined.</p>
+	<p class="eyebrow">CAREERS AT LESBIANADE</p>
+	<h1>BUILD YOUR<br /><span>CAREER WITH US.</span></h1>
+	<p>We bring together people across science, product development, marketing and operations to build a distinctive beverage brand.</p>
 </section>
 
 <section class="careers-intro">
 	<div><p class="eyebrow">THE EMPLOYEE VALUE PROPOSITION</p><h2>WORK WITH<br /><span>THE BEST.</span></h2></div>
 	<div class="careers-copy">
 		<p>At LESBIANADE™, we're building the world's most advanced lesbian hydration technology platform and an organisational structure capable of supporting it.</p>
-		<p>Our scientists, engineers, marketers, athletes, and flavour developers collaborate across functions, sub-functions, working groups, and temporary working groups established to evaluate the effectiveness of other working groups.</p>
-		<p>We value initiative, adaptability, and the ability to describe an unresolved problem as an exciting opportunity for alignment.</p>
-		<p>Benefits may include meaningful work, competitive ambiguity, and access to an underground facility whose location is not included in the onboarding materials.</p>
+		<p>Our teams work across research, product development, marketing and operations, sharing expertise to bring new ideas from concept to market.</p>
+		<p>We value curiosity, initiative, collaboration and a willingness to take on new challenges.</p>
+		<p>We offer opportunities to contribute to a growing fictional brand and work alongside a collaborative, multidisciplinary team.</p>
 	</div>
 </section>
 
 <section class="job-listings">
-	<div class="section-heading"><p class="eyebrow">OPEN REQUISITIONS · HEADCOUNT SUBJECT TO APPROVAL</p><h2>FIND YOUR<br /><span>FUNCTION.</span></h2></div>
-	<article class="job"><div><span class="job-type">R&amp;D · LESBOS · CLEARANCE FLANNEL</span><h3>Senior Hydration Scientist</h3><p>Must be comfortable conducting research on ingredients that may not be acknowledged by management.</p></div><a href="mailto:careers@lesbianade.com?subject=Application%20-%20Senior%20Hydration%20Scientist">APPLY →</a></article>
-	<article class="job"><div><span class="job-type">PRODUCT · GLOBAL · MATRIX REPORTING</span><h3>Director of Flavour Synergies</h3><p>Own the end-to-end flavour journey from initial concept to cross-functional flavour alignment.</p></div><a href="mailto:careers@lesbianade.com?subject=Application%20-%20Director%20of%20Flavour%20Synergies">APPLY →</a></article>
-	<article class="job"><div><span class="job-type">MARKETING · WELLINGTON · HYBRID IN PRINCIPLE</span><h3>Global Brand Strategist</h3><p>Translate ambitious brand language into measurable outputs that remain strategically flexible.</p></div><a href="mailto:careers@lesbianade.com?subject=Application%20-%20Global%20Brand%20Strategist">APPLY →</a></article>
-	<article class="job"><div><span class="job-type">CLASSIFIED · LESBOS · SECURITY LEVEL FLANNEL</span><h3>Underground Laboratory Technician</h3><p>Previous experience with doors, corridors, and not asking what the sealed room is for is desirable.</p></div><a href="mailto:careers@lesbianade.com?subject=Application%20-%20Laboratory%20Technician">APPLY →</a></article>
+	<div class="section-heading"><p class="eyebrow">CURRENT OPPORTUNITIES</p><h2>FIND YOUR<br /><span>PLACE HERE.</span></h2></div>
+	<article class="job"><div><span class="job-type">R&amp;D · LESBOS · LESBOS</span><h3>Senior Hydration Scientist</h3><p>Must be comfortable conducting research on ingredients that may not be acknowledged by management.</p></div><a href="mailto:careers@lesbianade.com?subject=Application%20-%20Senior%20Hydration%20Scientist">APPLY →</a></article>
+	<article class="job"><div><span class="job-type">PRODUCT · GLOBAL · MATRIX REPORTING</span><h3>Product Development Manager</h3><p>Lead product development from early concepts through testing, refinement and launch.</p></div><a href="mailto:careers@lesbianade.com?subject=Application%20-%20Director%20of%20Flavour%20Synergies">APPLY →</a></article>
+	<article class="job"><div><span class="job-type">MARKETING · WELLINGTON · HYBRID</span><h3>Brand Marketing Manager</h3><p>Help shape brand campaigns and translate creative ideas into clear, effective communications.</p></div><a href="mailto:careers@lesbianade.com?subject=Application%20-%20Global%20Brand%20Strategist">APPLY →</a></article>
+	<article class="job"><div><span class="job-type">RESEARCH · LESBOS</span><h3>Laboratory Technician</h3><p>Support laboratory operations, maintain equipment and follow established research and safety procedures.</p></div><a href="mailto:careers@lesbianade.com?subject=Application%20-%20Laboratory%20Technician">APPLY →</a></article>
 </section>
 
 <section class="careers-cta">
