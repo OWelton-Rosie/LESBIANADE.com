@@ -222,9 +222,7 @@
 	<span class="closing-signoff">END OF BRIEFING · NO FURTHER DISCLOSURE AUTHORISED</span>
 </section>
 
-
 <style>
-
 .science-header {
 	position: relative;
 	overflow: hidden;
@@ -864,11 +862,6 @@
 	}
 }
 
-</style>
-
-
-<style>
-
 .science-header {
 	position: relative;
 	overflow: hidden;
@@ -1507,5 +1500,4 @@
 		scroll-behavior: auto !important;
 	}
 }
-
 </style>
