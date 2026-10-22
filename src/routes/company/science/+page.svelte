@@ -1,9 +1,9 @@
 
 <svelte:head>
-	<title>Research &amp; Development - LESBIANADE™</title>
+	<title>Research &amp; Development - LESBIANADE®</title>
 	<meta
 		name="description"
-		content="Explore the classified research, proprietary formulation, and hydration science behind LESBIANADE™. Certain findings remain commercially inconvenient to disclose."
+		content="Explore the classified research, proprietary formulation, and hydration science behind LESBIANADE®. Certain findings remain commercially inconvenient to disclose."
 	/>
 </svelte:head>
 
@@ -42,7 +42,7 @@
 
 <section class="science-header">
 	<div class="science-hero-content">
-		<p class="eyebrow">THE LESBIANADE™ DIFFERENCE</p>
+		<p class="eyebrow">THE LESBIANADE® DIFFERENCE</p>
 
 		<h1>WE DON'T<br />ASK <span>WHY.</span><br />WE ADD<br />INGREDIENTS.</h1>
 
@@ -119,7 +119,7 @@
 				<strong>IMPORTANT SCIENTIFIC DISCLAIMER</strong>
 				Our proprietary terminology should not be interpreted as
 				evidence of independently verified performance benefits.
-				LESBIANADE™ takes its science seriously. The science has
+				LESBIANADE® takes its science seriously. The science has
 				not yet responded to our correspondence.
 			</p>
 		</div>
@@ -204,7 +204,7 @@
 </section>
 
 <section class="science-closing">
-	<p class="eyebrow">LESBIANADE™ / COMMITMENT TO INNOVATION</p>
+	<p class="eyebrow">LESBIANADE® / COMMITMENT TO INNOVATION</p>
 	<h2>THE FUTURE IS<br /><span>PROPRIETARY.</span></h2>
 	<p>
 		We remain committed to pushing boundaries, challenging paradigms,
