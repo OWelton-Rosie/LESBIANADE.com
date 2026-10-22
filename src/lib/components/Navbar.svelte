@@ -184,28 +184,6 @@ header:has(.navbar) {
     stroke-linejoin: round;
 }
 
-.cart-button {
-    position: relative;
-}
-
-.cart-button strong {
-    min-width: 17px;
-    height: 17px;
-    padding: 0 4px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 50%;
-
-    background: var(--hot-pink);
-    color: var(--white);
-
-    font-size: 0.55rem;
-}
-
-
 /* ========================================
    PRIMARY NAVIGATION
 ======================================== */
@@ -454,18 +432,7 @@ header:has(.navbar) {
     .icon-button {
         padding: 0.25rem;
     }
-
-    .account-button {
-        display: none;
-    }
-
-    .cart-button svg {
-        width: 21px;
-        height: 21px;
-    }
-
-
-    /* Hamburger visibility */
+/* Hamburger visibility */
 
     .menu-button {
         display: flex;
@@ -733,28 +700,6 @@ header:has(.navbar) {
     stroke-linejoin: round;
 }
 
-.cart-button {
-    position: relative;
-}
-
-.cart-button strong {
-    min-width: 17px;
-    height: 17px;
-    padding: 0 4px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 50%;
-
-    background: var(--hot-pink);
-    color: var(--white);
-
-    font-size: 0.55rem;
-}
-
-
 /* ========================================
    PRIMARY NAVIGATION
 ======================================== */
@@ -1003,18 +948,7 @@ header:has(.navbar) {
     .icon-button {
         padding: 0.25rem;
     }
-
-    .account-button {
-        display: none;
-    }
-
-    .cart-button svg {
-        width: 21px;
-        height: 21px;
-    }
-
-
-    /* Hamburger visibility */
+/* Hamburger visibility */
 
     .menu-button {
         display: flex;

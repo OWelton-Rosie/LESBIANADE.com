@@ -231,10 +231,6 @@ footer {
     font-size: 0.68rem;
 }
 
-.footer-bottom small + small {
-    margin-top: 0.4rem;
-}
-
 @media (max-width: 600px) {
     .footer-disclosure {
         margin-top: 3.5rem;
@@ -438,10 +434,6 @@ footer {
 .footer-disclosure p:last-child {
     color: #91858e;
     font-size: 0.68rem;
-}
-
-.footer-bottom small + small {
-    margin-top: 0.4rem;
 }
 
 @media (max-width: 600px) {

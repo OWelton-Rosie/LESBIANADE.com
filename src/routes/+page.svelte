@@ -182,14 +182,6 @@
     margin-top: 1.5rem;
 }
 
-.product-caption {
-    margin-top: 2rem;
-
-    font-size: 0.7rem;
-    font-weight: 900;
-    letter-spacing: 0.2em;
-}
-
 .statement {
     padding: 10vw 8vw;
 
