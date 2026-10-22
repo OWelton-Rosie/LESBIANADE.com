@@ -27,3 +27,57 @@
 	<h2>7. CONTACT LEGAL</h2>
 	<p>Questions regarding this fictional document may be directed to <a href="mailto:legal@lesbianade.com">legal@lesbianade.com</a>. Please allow 3–5 business quarters for a non-binding acknowledgement.</p>
 </article>
+
+<style>
+/* LEGAL */
+
+.legal-header {
+    padding: 9vw 8vw 7vw;
+
+    background: var(--dark);
+    color: var(--white);
+}
+
+.legal-header h1 {
+    margin: 0 0 2rem;
+
+    font-size: clamp(4rem, 9vw, 9rem);
+}
+
+.legal-header h1 span {
+    color: var(--pink);
+}
+
+.legal-header > p:last-child {
+    color: #aaa;
+
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+}
+
+.legal-content {
+    max-width: 900px;
+
+    padding: 8vw;
+
+    margin: 0 auto;
+}
+
+.legal-content h2 {
+    margin-top: 4rem;
+
+    font-size: 1.2rem;
+    letter-spacing: 0.02em;
+}
+
+.legal-content h2:first-child {
+    margin-top: 0;
+}
+
+.legal-content p {
+    color: #444;
+
+    font-size: 1rem;
+    line-height: 1.7;
+}
+</style>
