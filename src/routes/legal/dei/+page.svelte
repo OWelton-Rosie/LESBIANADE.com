@@ -33,62 +33,48 @@
 </section>
 
 <style>
-/* GENERAL CONTENT SECTIONS */
-
-.careers-intro,
-.sustainability-content,
-.partnership-intro,
-.press-content,
 .dei-content {
     padding: 10vw 8vw;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8vw;
 }
 
-.careers-intro h2,
-.sustainability-content h2,
-.partnership-intro h2,
-.press-content h2,
 .dei-content h2 {
     font-size: clamp(3.5rem, 7vw, 7rem);
 }
 
-.careers-intro h2 span,
-.sustainability-content h2 span,
 .dei-content h2 span {
     color: var(--hot-pink);
 }
 
-.careers-copy p,
-.sustainability-content > div:last-child p,
-.partnership-intro > div:last-child p,
-.press-content > div:first-child p,
 .dei-content > div:last-child p {
     max-width: 650px;
-
     font-size: 1.15rem;
     line-height: 1.6;
 }
 
-.careers-copy p + p,
-.sustainability-content > div:last-child p + p,
-.partnership-intro > div:last-child p + p,
 .dei-content > div:last-child p + p {
     margin-top: 2rem;
 }
 
-/* DEI */
-
 .dei-values {
     padding: 0 8vw 10vw;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .dei-values article {
+    padding: 2rem;
+    border-top: 2px solid var(--dark);
+    border-right: 2px solid var(--dark);
     min-height: 280px;
-
     background: var(--pink);
+}
+
+.dei-values article:first-child {
+    border-left: 2px solid var(--dark);
 }
 
 .dei-values article:nth-child(2) {
@@ -97,6 +83,20 @@
 
 .dei-values article:nth-child(3) {
     background: var(--white);
+}
+
+.dei-values strong {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.dei-values h3 {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+.dei-values p {
+    line-height: 1.5;
 }
 
 @media (max-width: 800px) {
