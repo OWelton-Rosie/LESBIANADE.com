@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Environmental, Social &amp; Hydration Governance - LESBIANADE™</title>
+	<title>Environmental, Social &amp; Hydration Governance - LESBIANADE®</title>
 	<meta name="description" content="Our sustainability strategy combines ambitious environmental language with carefully bounded commitments and an expanding reporting framework." />
 </svelte:head>
 
@@ -26,7 +26,7 @@
 	</div>
 	<div>
 		<p>
-			LESBIANADE™ is committed to reducing the environmental impact of
+			LESBIANADE® is committed to reducing the environmental impact of
 			across packaging, manufacturing and distribution. Our approach focuses on reviewing materials, reducing waste and improving operational efficiency.
 		</p>
 		<p>
