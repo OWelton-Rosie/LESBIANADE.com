@@ -47,7 +47,7 @@
 </section>
 
 <section class="home-cta">
-	<p class="eyebrow">DISCOVER THE ENTERPRISE</p>
+	<p class="eyebrow">DISCOVER COMPANY</p>
 	<h2>HYDRATION<br /><span>FOR EVERYONE.</span></h2>
 	<p>Subject to eligibility, availability, and approval by the Hydration Alignment Committee.</p>
 	<a href="/company/products" class="button primary">VIEW THE PORTFOLIO →</a>
