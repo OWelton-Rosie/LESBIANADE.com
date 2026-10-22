@@ -27,10 +27,10 @@
 				<a href="/legal/dei">PEOPLE &amp; BELONGING</a>
 			</div>
 			<div class="footer-column">
-				<h2>STAKEHOLDER ACCESS</h2>
-				<a href="/contact">ENGAGEMENT CENTRE</a>
-				<a href="/contact/press">EXTERNAL NARRATIVE</a>
-				<a href="/contact/partnerships">STRATEGIC PARTNERSHIPS</a>
+				<h2>GET IN TOUCH</h2>
+				<a href="/contact">CONTACT US</a>
+				<a href="/contact/press">PRESS & MEDIA</a>
+				<a href="/contact/partnerships">PARTNERSHIPS</a>
 				<a href="mailto:partnerships@lesbianade.com">PARTNERSHIPS EMAIL</a>
 			</div>
 		</div>
