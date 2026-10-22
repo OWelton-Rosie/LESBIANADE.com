@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Terms, Conditions &amp; Additional Terms - LESBIANADE™</title>
-	<meta name="description" content="The fictional terms governing access to the LESBIANADE™ satirical corporate experience." />
+	<title>Terms, Conditions &amp; Additional Terms - LESBIANADE®</title>
+	<meta name="description" content="The fictional terms governing access to the LESBIANADE® satirical corporate experience." />
 </svelte:head>
 
 <section class="legal-header">
@@ -11,13 +11,13 @@
 </section>
 
 <article class="legal-content">
-	<p><strong>READ THIS FIRST:</strong> LESBIANADE™ is a fictional satirical beverage company. This page is a comedic prop, not legal advice or a genuine contract for products or services.</p>
+	<p><strong>READ THIS FIRST:</strong> LESBIANADE® is a fictional satirical beverage company. This page is a comedic prop, not legal advice or a genuine contract for products or services.</p>
 	<h2>1. ACCEPTANCE OF THE EXPERIENCE</h2>
 	<p>By accessing this website, you acknowledge that you have accessed this website. Any further interpretation of that acknowledgement shall be referred to the Committee for Additional Terms.</p>
 	<h2>2. AUTHORISED USE</h2>
 	<p>You must not misuse the website, attempt to disrupt its operation, or use it for unlawful purposes.</p>
 	<h2>3. INTELLECTUAL PROPERTY &amp; BRAND ARCHITECTURE</h2>
-	<p>LESBIANADE™, its fictional products, invented programmes, and corporate terminology form part of this satirical experience. No statement on this website should be interpreted as evidence of a real product, partnership, scientific finding, or commercial relationship.</p>
+	<p>LESBIANADE®, its fictional products, invented programmes, and corporate terminology form part of this satirical experience. No statement on this website should be interpreted as evidence of a real product, partnership, scientific finding, or commercial relationship.</p>
 	<h2>4. SATIRE, PARODY &amp; NARRATIVE CONTROL</h2>
 	<p>This website is a work of satire. References to teams, organisations, athletes, facilities, research programmes, corporate metrics, and partnerships may be invented for comedic effect. Any apparent institutional confidence is incidental to the artistic objective.</p>
 	<h2>5. NO PERFORMANCE REPRESENTATIONS</h2>
