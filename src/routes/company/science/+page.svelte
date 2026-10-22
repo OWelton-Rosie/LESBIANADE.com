@@ -41,13 +41,8 @@
 </script>
 
 <section class="science-header">
-	<div class="science-topline">
-		<span>LESBIANADE™ RESEARCH &amp; DEVELOPMENT</span>
-		<span>EST. 1967 · LESBOS RESEARCH COMPLEX</span>
-	</div>
-
 	<div class="science-hero-content">
-		<p class="eyebrow">THE LESBIANADE™ DIFFERENCE / TECHNICAL BRIEFING 067</p>
+		<p class="eyebrow">THE LESBIANADE™ DIFFERENCE</p>
 
 		<h1>WE DON'T<br />ASK <span>WHY.</span><br />WE ADD<br />INGREDIENTS.</h1>
 
@@ -57,7 +52,6 @@
 				science, strategic ambiguity, and a research budget that
 				has never been independently audited.
 			</p>
-			<span>DOCUMENT REF. LSN-RD-067-A</span>
 		</div>
 	</div>
 
@@ -228,25 +222,6 @@
 	background: var(--orange);
 }
 
-.science-topline,
-.science-hero-footer,
-.classified-topline {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	gap: 1rem;
-	flex-wrap: wrap;
-	font-family: monospace;
-	font-size: 0.65rem;
-	font-weight: 800;
-	letter-spacing: 0.09em;
-}
-
-.science-topline {
-	padding: 0.8rem 0;
-	border-bottom: 1px solid rgb(0 0 0 / 25%);
-}
-
 .science-hero-content {
 	position: relative;
 	z-index: 1;
@@ -731,10 +706,6 @@
 @media (max-width: 600px) {
 	.science-header {
 		padding: 1rem 7vw 15vw;
-	}
-
-	.science-topline {
-		font-size: 0.55rem;
 	}
 
 	.science-header h1 {
@@ -867,25 +838,6 @@
 	background: var(--orange);
 }
 
-.science-topline,
-.science-hero-footer,
-.classified-topline {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	gap: 1rem;
-	flex-wrap: wrap;
-	font-family: monospace;
-	font-size: 0.65rem;
-	font-weight: 800;
-	letter-spacing: 0.09em;
-}
-
-.science-topline {
-	padding: 0.8rem 0;
-	border-bottom: 1px solid rgb(0 0 0 / 25%);
-}
-
 .science-hero-content {
 	position: relative;
 	z-index: 1;
@@ -1372,9 +1324,6 @@
 		padding: 1rem 7vw 15vw;
 	}
 
-	.science-topline {
-		font-size: 0.55rem;
-	}
 
 	.science-header h1 {
 		font-size: clamp(4rem, 15vw, 6rem);
