@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Press & Media - LESBIANADE™</title>
-	<meta name="description" content="Official statements, media resources, and company statements and media resources from the LESBIANADE™ Press & Media." />
+	<title>Press & Media - LESBIANADE®</title>
+	<meta name="description" content="Official statements, media resources, and company statements and media resources from the LESBIANADE® Press & Media." />
 </svelte:head>
 
 <section class="page-header">
