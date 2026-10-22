@@ -257,10 +257,6 @@ footer {
     line-height: 1.7;
 }
 
-</style>
-
-
-<style>
 footer {
     padding: 6rem 6vw 2rem;
 
@@ -469,5 +465,4 @@ footer {
     font-size: 0.9rem;
     line-height: 1.7;
 }
-
 </style>
