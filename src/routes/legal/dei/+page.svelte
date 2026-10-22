@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>People &amp; Inclusion - LESBIANADE™</title>
-	<meta name="description" content="LESBIANADE™'s fictional people and inclusion framework, including a strategic roadmap for belonging, respect, and committee formation." />
+	<title>People &amp; Inclusion - LESBIANADE®</title>
+	<meta name="description" content="LESBIANADE®'s fictional people and inclusion framework, including a strategic roadmap for belonging, respect, and committee formation." />
 </svelte:head>
 
 <section class="page-header">
@@ -13,7 +13,7 @@
 <section class="dei-content">
 	<div><p class="eyebrow">OUR COMMITMENT</p><h2>DIFFERENT<br />BY <span>DESIGN.</span></h2></div>
 	<div>
-		<p>LESBIANADE™ is committed to creating an environment where people can contribute, grow, and be themselves, preferably without needing to complete Form HR-067B in triplicate.</p>
+		<p>LESBIANADE® is committed to creating an environment where people can contribute, grow, and be themselves, preferably without needing to complete Form HR-067B in triplicate.</p>
 		<p>We seek to build teams that reflect the communities we serve and to ensure everyone has an equal opportunity to participate in our organisation, and to make sure people can contribute fully to their work.</p>
 		<p>Our inclusion strategy is embedded across recruitment, employment, partnerships, suppliers, and wider business activities. We aim to build an inclusive workplace through fair recruitment, respectful conduct and ongoing review of our policies.</p>
 	</div>

@@ -26,7 +26,7 @@
 	</div>
 
 	<div class="navbar">
-		<a href="/" class="logo" onclick={closeMenu} aria-label="LESBIANADE™ home"><Name /></a>
+		<a href="/" class="logo" onclick={closeMenu} aria-label="LESBIANADE® home"><Name /></a>
 		<div class="header-actions">
 			<button class="icon-button search-button" aria-label="Search" aria-expanded={searchOpen} onclick={toggleSearch}>
 				<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
@@ -41,7 +41,7 @@
 	{#if searchOpen}
 		<div class="search-panel">
 			<form action="/search" method="GET">
-				<label for="site-search">SEARCH LESBIANADE™</label>
+				<label for="site-search">SEARCH LESBIANADE®</label>
 				<div class="search-input">
 					<input id="site-search" name="q" type="search" placeholder="Search products, ingredients and company information..." autocomplete="off" />
 					<button type="submit">SEARCH →</button>

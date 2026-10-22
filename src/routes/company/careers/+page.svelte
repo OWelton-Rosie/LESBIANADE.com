@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Careers - LESBIANADE™</title>
-	<meta name="description" content="Explore career opportunities within the LESBIANADE™ hydration ecosystem and its cross-functional matrix of strategic priorities." />
+	<title>Careers - LESBIANADE®</title>
+	<meta name="description" content="Explore career opportunities within the LESBIANADE® hydration ecosystem and its cross-functional matrix of strategic priorities." />
 </svelte:head>
 
 <section class="page-header">
@@ -12,7 +12,7 @@
 <section class="careers-intro">
 	<div><p class="eyebrow">THE EMPLOYEE VALUE PROPOSITION</p><h2>WORK WITH<br /><span>THE BEST.</span></h2></div>
 	<div class="careers-copy">
-		<p>At LESBIANADE™, we're building the world's most advanced lesbian hydration technology platform and an organisational structure capable of supporting it.</p>
+		<p>At LESBIANADE®, we're building the world's most advanced lesbian hydration technology platform and an organisational structure capable of supporting it.</p>
 		<p>Our teams work across research, product development, marketing and operations, sharing expertise to bring new ideas from concept to market.</p>
 		<p>We value curiosity, initiative, collaboration and a willingness to take on new challenges.</p>
 		<p>We offer opportunities to contribute to a growing fictional brand and work alongside a collaborative, multidisciplinary team.</p>
@@ -32,7 +32,7 @@
 	<h2>WE'LL CREATE<br /><span>A NEW JOB FAMILY.</span></h2>
 	<p>Submit a speculative application. It will be retained in our talent ecosystem pending the development of an appropriate ecosystem retention policy.</p>
 	<a href="mailto:careers@lesbianade.com?subject=Speculative%20Application" class="button primary">SUBMIT YOUR PROFESSIONAL NARRATIVE →</a>
-	<p class="careers-footnote">LESBIANADE™ is a fictional satirical company. These fictional roles are not actual vacancies.</p>
+	<p class="careers-footnote">LESBIANADE® is a fictional satirical company. These fictional roles are not actual vacancies.</p>
 </section>
 
 <style>

@@ -1,9 +1,9 @@
 
 <svelte:head>
-    <title>Our History - LESBIANADE™</title>
+    <title>Our History - LESBIANADE®</title>
     <meta
         name="description"
-        content="Since 1967, LESBIANADE™ has redefined lesbian hydration technology. Discover our classified history, scientific breakthroughs and global hydration agenda."
+        content="Since 1967, LESBIANADE® has redefined lesbian hydration technology. Discover our classified history, scientific breakthroughs and global hydration agenda."
     />
 </svelte:head>
 
@@ -77,7 +77,7 @@
 
     <span class="signature">
         THE BOARD OF DIRECTORS<br />
-        LESBIANADE™ GLOBAL HOLDINGS
+        LESBIANADE® GLOBAL HOLDINGS
     </span>
 </section>
 
@@ -109,7 +109,7 @@
                 <p class="eyebrow">LESBOS, GREECE</p>
                 <h3>THE BEGINNING OF EVERYTHING.</h3>
                 <p>
-                    A group of Greek scientists establishes LESBIANADE™
+                    A group of Greek scientists establishes LESBIANADE®
                     in an undisclosed facility beneath the island of
                     Lesbos. Their initial research concerns hydration.
                     Their subsequent research concerns brand positioning.
@@ -197,7 +197,7 @@
                 <p class="eyebrow">GLOBAL MARKETS</p>
                 <h3>U-HAUL TECHNOLOGY.</h3>
                 <p>
-                    LESBIANADE™ enters international markets with a
+                    LESBIANADE® enters international markets with a
                     revolutionary new approach to consumer retention.
                     Customers report unprecedented levels of
                     commitment to the product.
@@ -255,7 +255,7 @@
                 <p class="eyebrow">STRATEGIC TRANSFORMATION</p>
                 <h3>THE LESBIAN AGENDA.</h3>
                 <p>
-                    LESBIANADE™ launches its global hydration
+                    LESBIANADE® launches its global hydration
                     initiative, introducing a new era of
                     corporate transparency in which every claim
                     is carefully worded and every question

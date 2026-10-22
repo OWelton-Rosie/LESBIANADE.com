@@ -6,7 +6,7 @@
 	<div class="footer-main">
 		<div class="footer-brand">
 			<div class="footer-logo"><Name /></div>
-			<h1>FUEL THE UPRISING.™</h1>
+			<h1>FUEL THE UPRISING™</h1>
 			<p class="footer-manifesto">A globally integrated hydration ecosystem with a localised commitment to highly specific thirst.</p>
 		</div>
 
@@ -38,12 +38,12 @@
 
 	<div class="footer-disclosure">
 		<strong>ABOUT THIS WEBSITE</strong>
-		<p><Name /> is a fictional satirical beverage company. The products, research programmes, performance language, corporate metrics, facilities, vacancies, and partnerships described on this website are fictional unless explicitly stated otherwise. Named sports organisations are not affiliated with or endorsing LESBIANADE™. No actual beverage is offered for sale through this website.</p>
+		<p><Name /> is a fictional satirical beverage company. The products, research programmes, performance language, corporate metrics, facilities, vacancies, and partnerships described on this website are fictional unless explicitly stated otherwise. Named sports organisations are not affiliated with or endorsing LESBIANADE®. No actual beverage is offered for sale through this website.</p>
 		<p>This website is a work of satire. Product information, company history, partnerships and other claims are fictional unless stated otherwise.</p>
 	</div>
 
 	<div class="footer-bottom">
-		<small>© 1967–2026 LESBIANADE™ · ALL RIGHTS RESERVED IN PRINCIPLE · NO RIGHTS HAVE BEEN INDEPENDENTLY AUDITED.</small>
+		<small>© 1967–2026 LESBIANADE® · ALL RIGHTS RESERVED IN PRINCIPLE · NO RIGHTS HAVE BEEN INDEPENDENTLY AUDITED.</small>
 	</div>
 </footer>
 

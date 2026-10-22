@@ -1,12 +1,12 @@
 <svelte:head>
-	<title>LESBIANADE™ — FUEL THE UPRISING.™</title>
-	<meta name="description" content="Discover LESBIANADE™, a fictional sports hydration brand established in 1967 on the Greek island of Lesbos." />
+	<title>LESBIANADE® — FUEL THE UPRISING™</title>
+	<meta name="description" content="Discover LESBIANADE®, a fictional sports hydration brand established in 1967 on the Greek island of Lesbos." />
 </svelte:head>
 
 <section class="hero">
 	<div class="hero-content">
 		<p class="eyebrow">EST. 1967 · LESBOS, GREECE · LISTED ON NO EXCHANGE</p>
-		<h1>FUEL THE<br /><em>UPRISING.™</em></h1>
+		<h1>FUEL THE<br /><em>UPRISING™</em></h1>
 		<p class="hero-text">
 			A distinctive sports hydration brand for active people, built around bold flavours and an unapologetically independent point of view.
 		</p>
@@ -21,7 +21,7 @@
 			<div class="bottle-cap"></div>
 			<div class="bottle-label">
 				<span class="bottle-small">STRATEGIC FLUID SOLUTIONS</span>
-				<strong>LESBIANADE™</strong>
+				<strong>LESBIANADE®</strong>
 				<span class="bottle-flavour">TRADITIONAL</span>
 				<span class="bottle-active">67 ACTIVE INGREDIENTS*</span>
 			</div>
@@ -35,7 +35,7 @@
 	<h2>67 ACTIVE INGREDIENTS.<br /><span>ONE VERY SPECIFIC DEMOGRAPHIC.</span></h2>
 	<p>
 		From the world's most demanding sporting arenas to the local community
-		rugby pitch, LESBIANADE™ delivers a scalable hydration ecosystem
+		rugby pitch, LESBIANADE® delivers a scalable hydration ecosystem
 		designed to unlock synergies at the intersection of performance,
 		identity, and quarterly growth.
 	</p>

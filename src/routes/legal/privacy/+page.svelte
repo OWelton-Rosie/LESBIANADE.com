@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Privacy &amp; Data Governance Framework - LESBIANADE™</title>
-	<meta name="description" content="A satirical overview of the fictional LESBIANADE™ approach to privacy, information handling, and governance." />
+	<title>Privacy &amp; Data Governance Framework - LESBIANADE®</title>
+	<meta name="description" content="A satirical overview of the fictional LESBIANADE® approach to privacy, information handling, and governance." />
 </svelte:head>
 
 <section class="legal-header">
@@ -11,7 +11,7 @@
 </section>
 
 <article class="legal-content">
-	<p><strong>IMPORTANT:</strong> LESBIANADE™ is a fictional satirical company. This page is part of the satire and is not a representation of an actual company's data practices or legal advice.</p>
+	<p><strong>IMPORTANT:</strong> LESBIANADE® is a fictional satirical company. This page is part of the satire and is not a representation of an actual company's data practices or legal advice.</p>
 	<h2>1. PURPOSE &amp; GOVERNANCE</h2>
 	<p>We believe privacy is a foundational pillar of our information management practices. This policy establishes the principles by which information is collected, used, stored, and managed by the company.</p>
 	<h2>2. INFORMATION WE MAY ENCOUNTER</h2>
