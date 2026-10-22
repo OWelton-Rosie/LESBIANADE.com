@@ -226,6 +226,7 @@
     </p>
 </section>
 
+
 <section class="partners-classified">
     <p class="eyebrow">CONFIDENTIAL · INTERNAL USE ONLY</p>
     <h2>THE PARTNERSHIP<br />THAT CANNOT BE <span>CONFIRMED.</span></h2>
@@ -246,6 +247,47 @@
         <span>END OF AVAILABLE DOCUMENTATION.</span>
     </div>
 </section>
+
+<section class="partnership-enquiries">
+	<div class="enquiries-topline">
+		<span>GLOBAL PARTNERSHIPS DIVISION</span>
+		<span>DEPARTMENT 067 · EXTERNAL RELATIONS</span>
+	</div>
+
+	<div class="enquiries-content">
+		<p class="enquiries-eyebrow">STRATEGIC ALIGNMENT OPPORTUNITIES</p>
+
+		<h2>YOUR ORGANISATION. OUR HYDRATION. SHAREHOLDER VALUE.</h2>
+
+		<p class="enquiries-copy">
+			Interested in aligning your organisation with the future of
+			scientifically optimised lesbian hydration? Our Strategic
+			Partnerships team is accepting expressions of interest,
+			preliminary expressions of interest, and expressions of
+			interest in potentially expressing interest.
+		</p>
+
+		<div class="enquiries-contact">
+			<span>OFFICIAL PARTNERSHIP CORRESPONDENCE</span>
+			<a href="mailto:partnerships@lesbianade.com">
+				partnerships@lesbianade.com
+			</a>
+		</div>
+
+		<p class="enquiries-footnote">
+			All enquiries are subject to internal stakeholder alignment,
+			strategic synergy assessment, and approval by the Committee
+			for the Evaluation of Strategic Synergies. Response times
+			are determined by the hydration needs of the business.
+		</p>
+	</div>
+
+	<div class="enquiries-footer">
+		<span>BUILDING TOMORROW'S HYDRATION ECOSYSTEM™</span>
+		<span>PLEASE ALLOW 3–5 BUSINESS QUARTERS</span>
+	</div>
+</section>
+
 
 <section class="partner-disclaimer">
     <p class="eyebrow">IMPORTANT LEGAL INFORMATION</p>

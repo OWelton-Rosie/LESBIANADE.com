@@ -45,7 +45,7 @@
     <div class="footer-bottom">
         <small>
             <Name /> is a fictional satirical beverage company.
-            No actual lesbians were hydrated in the production of this website.
+            No actual lesbians were hydrated in the production of this website. More informaton is available <a href="oweltonrosie.com/writing/lesbianade" target="_blank" rel="noopener noreferrer">here</a>.
         </small>
     </div>
 </footer>
