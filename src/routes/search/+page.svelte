@@ -126,7 +126,7 @@ const entries = [
     {
         title: 'DIVERSITY, EQUITY AND INCLUSION',
         category: 'LEGAL',
-        description: 'Our fictional corporate inclusion commitments.',
+        description: 'Our approach to inclusion and belonging.',
         href: '/legal/dei',
         keywords: 'diversity equity inclusion community'
     }
@@ -188,7 +188,7 @@ const entries = [
 </svelte:head>
 
 <section class="page-header">
-    <p class="eyebrow">FIND YOUR FORMULA</p>
+    <p class="eyebrow">EXPLORE LESBIANADE</p>
     <h1>SEARCH <span>LESBIANADE™.</span></h1>
     <p>Products, ingredients, history and everything in between.</p>
 </section>
@@ -235,7 +235,7 @@ const entries = [
             </div>
         {:else}
             <div class="no-results">
-                <h2>NOTHING IN THE FRIDGE.</h2>
+                <h2>NO RESULTS FOUND</h2>
                 <p>
                     We couldn't find anything matching “{query}”.
                     Try a product name, ingredient or company section.
