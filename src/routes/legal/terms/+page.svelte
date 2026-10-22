@@ -1,60 +1,29 @@
 <svelte:head>
-    <title>Terms & Conditions - LESBIANADE &reg;</title>
+	<title>Terms, Conditions &amp; Interpretive Flexibility - LESBIANADE™</title>
+	<meta name="description" content="The fictional terms governing access to the LESBIANADE™ satirical corporate experience." />
 </svelte:head>
 
 <section class="legal-header">
-    <p class="eyebrow">LEGAL</p>
-
-    <h1>
-        TERMS &<br />
-        <span>CONDITIONS.</span>
-    </h1>
-
-    <p>Last updated: 20 August 2026</p>
+	<p class="eyebrow">LEGAL · GOVERNANCE · ADDITIONAL GOVERNANCE</p>
+	<h1>TERMS &amp;<br /><span>CONDITIONS.</span></h1>
+	<p>Last updated: 22 October 2026 · Document LGL-067-TC</p>
+	<p>PLEASE READ THIS DOCUMENT, EVEN THOUGH IT IS A SATIRE.</p>
 </section>
 
 <article class="legal-content">
-    <h2>1. ACCEPTANCE</h2>
-
-    <p>
-        By accessing this website, you agree to these terms and
-        conditions.
-    </p>
-
-    <h2>2. USE OF THIS WEBSITE</h2>
-
-    <p>
-        You agree to use this website lawfully and in a manner that
-        does not interfere with its operation or security.
-    </p>
-
-    <h2>3. INTELLECTUAL PROPERTY</h2>
-
-    <p>
-        The LESBIANADE &reg; name, branding, visual identity, and other
-        materials displayed on this website are fictional elements
-        created for satirical purposes unless otherwise stated.
-    </p>
-
-    <h2>4. SATIRE</h2>
-
-    <p>
-        This website is a work of satire. References to organisations,
-        teams, athletes, products, partnerships, facilities, scientific
-        discoveries, and corporate activities may be fictional.
-    </p>
-
-    <h2>5. LIMITATION OF LIABILITY</h2>
-
-    <p>
-        To the maximum extent permitted by law, LESBIANADE &reg; shall not
-        be liable for losses arising from your use of this website.
-    </p>
-
-    <h2>6. CONTACT</h2>
-
-    <p>
-        Questions regarding these terms may be directed to
-        legal@lesbianade.com.
-    </p>
+	<p><strong>READ THIS FIRST:</strong> LESBIANADE™ is a fictional satirical beverage company. This page is a comedic prop, not legal advice or a genuine contract for products or services.</p>
+	<h2>1. ACCEPTANCE OF THE EXPERIENCE</h2>
+	<p>By accessing this website, you acknowledge that you have accessed this website. Any further interpretation of that acknowledgement shall be referred to the Committee for Interpretive Flexibility.</p>
+	<h2>2. AUTHORISED USE</h2>
+	<p>You agree to use this website lawfully, responsibly, and without disrupting the carefully maintained illusion of corporate operational maturity.</p>
+	<h2>3. INTELLECTUAL PROPERTY &amp; BRAND ARCHITECTURE</h2>
+	<p>LESBIANADE™, its fictional products, invented programmes, and corporate terminology form part of this satirical experience. No statement on this website should be interpreted as evidence of a real product, partnership, scientific finding, or commercial relationship.</p>
+	<h2>4. SATIRE, PARODY &amp; NARRATIVE CONTROL</h2>
+	<p>This website is a work of satire. References to teams, organisations, athletes, facilities, research programmes, corporate metrics, and partnerships may be invented for comedic effect. Any apparent institutional confidence is incidental to the artistic objective.</p>
+	<h2>5. NO PERFORMANCE REPRESENTATIONS</h2>
+	<p>Statements about hydration, performance, innovation, and synergies are fictional marketing language. They are not independently verified scientific claims, and the phrase “67 active ingredients” should not be treated as nutritional or medical information.</p>
+	<h2>6. LIMITATION OF NARRATIVE LIABILITY</h2>
+	<p>To the extent permitted by the laws of satire, no fictional committee accepts responsibility for any reader's interpretation of a fictional committee's fictional statement.</p>
+	<h2>7. CONTACT LEGAL</h2>
+	<p>Questions regarding this fictional document may be directed to <a href="mailto:legal@lesbianade.com">legal@lesbianade.com</a>. Please allow 3–5 business quarters for a non-binding acknowledgement.</p>
 </article>
