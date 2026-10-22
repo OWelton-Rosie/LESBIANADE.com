@@ -40,10 +40,10 @@
             category: 'PROFESSIONAL CYCLING',
             tier: 'OFFICIAL STRATEGIC PARTNER',
             colour: 'fdj',
-            activation: 'Optimising fluid-adjacent brand synergies across all available touchpoints.',
+            activation: 'Optimising fluid-adjacent brand partnership opportunities across all available touchpoints.',
             metric: '360°',
             metricLabel: 'SYNERGY COVERAGE',
-            quote: '"Our synergy consultants are standing by."'
+            quote: '"Our collaboration consultants are standing by."'
         },
         {
             number: '005',
@@ -65,7 +65,7 @@
             activation: 'Aligning elite netball performance with next-generation lesbian hydration technology.',
             metric: '∞',
             metricLabel: 'POTENTIAL SYNERGIES',
-            quote: '"Our synergy model is proprietary."'
+            quote: '"Our collaboration model is proprietary."'
         },
         {
             number: '007',
@@ -121,7 +121,7 @@
 
     <div class="partners-header-bottom">
         <p>
-            Strategic relationships. Transformational synergies.
+            Strategic relationships. Transformational partnership opportunities.
             An unprecedented commitment to fluids.
         </p>
         <div class="partners-seal">
@@ -276,7 +276,7 @@
 
 		<p class="enquiries-footnote">
 			All enquiries are subject to internal stakeholder alignment,
-			strategic synergy assessment, and approval by the Committee
+			strategic collaboration assessment, and approval by the Committee
 			for the Evaluation of Strategic Synergies. Response times
 			are determined by the hydration needs of the business.
 		</p>
