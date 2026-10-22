@@ -7,27 +7,27 @@
 	<p class="eyebrow">LEGAL &amp; DATA GOVERNANCE · POLICY 067-P</p>
 	<h1>PRIVACY<br /><span>FRAMEWORK.</span></h1>
 	<p>Last updated: 22 October 2026 · Version 6.7 · Previous versions unavailable pending review</p>
-	<p>CLASSIFICATION: PUBLIC, SUBJECT TO INTERNAL INTERPRETATION</p>
+	<p>CLASSIFICATION: PUBLIC</p>
 </section>
 
 <article class="legal-content">
 	<p><strong>IMPORTANT:</strong> LESBIANADE™ is a fictional satirical company. This page is part of the satire and is not a representation of an actual company's data practices or legal advice.</p>
 	<h2>1. PURPOSE &amp; GOVERNANCE</h2>
-	<p>We believe privacy is a foundational pillar of our data-adjacent stakeholder ecosystem. This policy establishes the principles by which information is discussed, considered, categorised, and escalated across the organisation.</p>
+	<p>We believe privacy is a foundational pillar of our information management practices. This policy establishes the principles by which information is collected, used, stored, and managed by the company.</p>
 	<h2>2. INFORMATION WE MAY ENCOUNTER</h2>
-	<p>Information may include details you voluntarily provide through enquiries, speculative applications, or correspondence regarding the 67th ingredient. Technical information may also be generated when this website is accessed. The exact boundaries of “encounter” are subject to ongoing definitional alignment.</p>
+	<p>Information may include details you voluntarily provide through enquiries, speculative applications, or correspondence regarding the 67th ingredient. Technical information may also be generated when this website is accessed. We aim to collect only information relevant to the purpose for which it was provided.</p>
 	<h2>3. PURPOSE LIMITATION</h2>
-	<p>Information is used for the purpose for which it was supplied, related purposes, and purposes that may later be determined to be related following an internal workshop.</p>
-	<h2>4. THIRD-PARTY SYNERGIES</h2>
-	<p>We do not sell personal information to third parties in this fictional policy. We may, however, refer to third parties extensively in hypothetical discussions of strategic synergies.</p>
+	<p>Information is used for the purpose for which it was supplied, related purposes, and other purposes compatible with the original reason for collection.</p>
+	<h2>4. THIRD-PARTY SERVICES</h2>
+	<p>We do not sell personal information to third parties in this fictional policy. We may, however, refer to third parties extensively in hypothetical discussions of business relationships.</p>
 	<h2>5. RETENTION &amp; DELETION</h2>
 	<p>Information is retained for as long as necessary, appropriate, proportionate, or useful to a committee tasked with deciding whether it remains necessary, appropriate, proportionate, or useful.</p>
 	<h2>6. YOUR RIGHTS</h2>
-	<p>You may ask questions about your information. Your request will be acknowledged in principle and routed to the appropriate information governance workstream.</p>
+	<p>You may ask questions about your information. Your request will be reviewed by the appropriate team.</p>
 	<h2>7. CONTACT THE PRIVACY OFFICE</h2>
-	<p>Direct privacy-related correspondence to <a href="mailto:privacy@lesbianade.com">privacy@lesbianade.com</a>. Please include the phrase “DATA SUBJECT ALIGNMENT” in the subject line to accelerate the process, subject to processing capacity.</p>
+	<p>Direct privacy-related correspondence to <a href="mailto:privacy@lesbianade.com">privacy@lesbianade.com</a>. Please include relevant details so we can respond to your request.</p>
 	<h2>8. POLICY AMENDMENTS</h2>
-	<p>This document may be updated as our privacy journey evolves. Material changes will be communicated through an appropriate channel, once the appropriate channel has been selected.</p>
+	<p>This document may be updated as our privacy journey evolves. Material changes will be communicated through an appropriate channel, through our usual communication channels.</p>
 </article>
 
 <style>
