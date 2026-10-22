@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>Strategic Alliance Intake - LESBIANADE™</title>
-	<meta name="description" content="Begin the multi-stage strategic alignment process for prospective LESBIANADE™ partnerships." />
+	<meta name="description" content="Begin the multi-stage shared objectives process for prospective LESBIANADE™ partnerships." />
 </svelte:head>
 
 <section class="page-header">
@@ -30,9 +30,9 @@
 <section class="contact-notice">
 	<p class="eyebrow">STAGE 01 / EXPRESSION OF INTEREST</p>
 	<h2>INITIATE THE ALIGNMENT.</h2>
-	<p>Send a concise overview of your organisation, the proposed opportunity, and the specific synergies you believe exist. “We both like hydration” is considered a foundational, rather than differentiated, value proposition.</p>
+	<p>Send a concise overview of your organisation, the proposed opportunity, and the specific partnership opportunities you believe exist. “We both like hydration” is considered a foundational, rather than differentiated, value proposition.</p>
 	<a href="mailto:partnerships@lesbianade.com?subject=Strategic%20Partnership%20Expression%20of%20Interest" class="button primary">PARTNERSHIPS@LESBIANADE.COM →</a>
-	<p>All enquiries are subject to stakeholder alignment, strategic synergy assessment, and approval by the Committee for the Evaluation of Strategic Synergies. Please allow 3–5 business quarters.</p>
+	<p>All enquiries are subject to stakeholder alignment, strategic collaboration assessment, and approval by the Committee for the Evaluation of Strategic Synergies. Please allow 3–5 business quarters.</p>
 </section>
 
 <style>
