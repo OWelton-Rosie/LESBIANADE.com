@@ -147,6 +147,36 @@
     line-height: 1.5;
 }
 
+.contact-notice {
+    padding: 8vw;
+    text-align: center;
+    background: var(--dark);
+    color: var(--white);
+}
+
+.contact-notice h2 {
+    max-width: 1000px;
+    margin: 1.5rem auto;
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+}
+
+.contact-notice > p:not(.eyebrow) {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-notice .eyebrow {
+    color: var(--pink);
+}
+
+.contact-notice .button {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
 @media (max-width: 800px) {
   .sustainability-content { padding: 18vw 7vw; grid-template-columns: 1fr; gap: 3rem; }
   .sustainability-stats { grid-template-columns: 1fr; }
@@ -154,5 +184,6 @@
   .commitment-grid { grid-template-columns: 1fr; }
   .commitment-grid article { border-left: 2px solid var(--dark); }
   .sustainability-commitments { padding: 12vw 7vw; }
+  .contact-notice { padding: 18vw 7vw; }
 }
 </style>
