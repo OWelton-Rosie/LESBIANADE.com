@@ -77,13 +77,94 @@
 }
 
 .contact-notice {
-    text-align: center;
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    column-gap: 8vw;
+    row-gap: 1.5rem;
+    align-items: start;
+    padding: 8vw;
+    background: var(--cream);
+    color: var(--dark);
+    border-top: 2px solid var(--dark);
+}
+
+.contact-notice .eyebrow {
+    grid-column: 1 / -1;
+    margin: 0;
+    color: var(--hot-pink);
+}
+
+.contact-notice h2 {
+    grid-column: 1;
+    margin: 0;
+    font-size: clamp(3.5rem, 7vw, 7rem);
+    line-height: 0.85;
+    letter-spacing: -0.075em;
+    overflow-wrap: anywhere;
+}
+
+.contact-notice > p:nth-of-type(2) {
+    grid-column: 2;
+    max-width: 540px;
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.contact-notice > p:nth-of-type(3) {
+    grid-column: 1 / -1;
+    margin: 1rem 0 0;
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--dark);
+    border-bottom: 1px solid var(--dark);
+    font-size: 0.8rem;
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+}
+
+.contact-notice > p:nth-of-type(3) strong {
+    display: inline-block;
+    margin-right: 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+}
+
+.contact-notice > p:nth-of-type(4) {
+    grid-column: 2;
+    max-width: 650px;
+    margin: 0;
+    line-height: 1.65;
+}
+
+.contact-notice a {
+    color: var(--hot-pink);
+    font-weight: 800;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+    overflow-wrap: anywhere;
 }
 
 @media (max-width: 800px) {
   .contact-grid { padding: 12vw 7vw; grid-template-columns: 1fr; }
   .contact-grid article, .contact-grid article:nth-child(3), .contact-grid article:nth-child(4) { min-height: 0; padding: 2rem 1.5rem; border-left: 2px solid var(--dark); border-bottom: 0; }
   .contact-grid article:last-child { border-bottom: 2px solid var(--dark); }
-  .contact-notice { padding: 18vw 7vw; }
+  .contact-notice {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 18vw 7vw;
+  }
+  .contact-notice .eyebrow,
+  .contact-notice h2,
+  .contact-notice > p:nth-of-type(2),
+  .contact-notice > p:nth-of-type(3),
+  .contact-notice > p:nth-of-type(4) {
+    grid-column: 1;
+  }
+  .contact-notice h2 {
+    font-size: clamp(3.5rem, 14vw, 6rem);
+  }
+  .contact-notice > p:nth-of-type(3) {
+    margin-top: 0.5rem;
+  }
 }
 </style>
