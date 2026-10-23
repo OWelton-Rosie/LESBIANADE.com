@@ -1,9 +1,9 @@
 <script>
 	import { onMount } from 'svelte';
-	import '$lib/styles/base.css';
-	import Navbar from '$lib/components/Navbar.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import Name from '$lib/components/Name.svelte';
+	import '#lib/styles/base.css';
+	import Navbar from '#lib/components/Navbar.svelte';
+	import Footer from '#lib/components/Footer.svelte';
+	import Name from '#lib/components/Name.svelte';
 
 	let { children } = $props();
 
