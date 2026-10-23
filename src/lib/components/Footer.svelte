@@ -22,16 +22,15 @@
 			</div>
 			<div class="footer-column">
 				<h2>GOVERNANCE</h2>
-				<a href="/legal/privacy">DATA GOVERNANCE</a>
+				<a href="/legal/privacy">PRIVACY POLICY</a>
 				<a href="/legal/terms">TERMS &amp; CONDITIONS</a>
-				<a href="/legal/dei">PEOPLE &amp; BELONGING</a>
+				<a href="/legal/dei">DIVERSITY, EQUITY &amp; INCLUSION</a>
 			</div>
 			<div class="footer-column">
 				<h2>GET IN TOUCH</h2>
 				<a href="/contact">CONTACT US</a>
 				<a href="/contact/press">PRESS & MEDIA</a>
 				<a href="/contact/partnerships">PARTNERSHIPS</a>
-				<a href="mailto:partnerships@lesbianade.com">PARTNERSHIPS EMAIL</a>
 			</div>
 		</div>
 	</div>

@@ -112,10 +112,6 @@
 </svelte:head>
 
 <section class="partners-header">
-    <div class="partners-topline">
-        <p class="eyebrow">GLOBAL PARTNERSHIPS DIVISION · EST. 1967</p>
-        <span class="partners-status">ALL SYSTEMS HYDRATED</span>
-    </div>
 
     <h1>WE DON'T JUST<br />SPONSOR SPORT.<br /><span>WE REDEFINE IT.</span></h1>
 
@@ -124,11 +120,6 @@
             Strategic relationships. Transformational partnership opportunities.
             An unprecedented commitment to fluids.
         </p>
-        <div class="partners-seal">
-            <span>OFFICIALLY</span>
-            <strong>UNOFFICIAL</strong>
-            <span>™ · DIVISION 67</span>
-        </div>
     </div>
 
     <div class="partners-banner">
@@ -182,7 +173,6 @@
             <p class="eyebrow">THE GLOBAL PORTFOLIO</p>
             <h2>OUR <span>PARTNERS.</span></h2>
         </div>
-        <p>PORTFOLIO REFERENCE: LSB-0067-GLOBAL</p>
     </div>
 
     <div class="partner-grid">
@@ -219,11 +209,6 @@
             </article>
         {/each}
     </div>
-
-    <p class="partners-interaction-note">
-        HOVER TO ACCESS STRATEGIC INTELLIGENCE.
-        ON TOUCHSCREENS, TAP A CARD.
-    </p>
 </section>
 
 
@@ -249,13 +234,9 @@
 </section>
 
 <section class="partnership-enquiries">
-	<div class="enquiries-topline">
-		<span>GLOBAL PARTNERSHIPS DIVISION</span>
-		<span>DEPARTMENT 067 · EXTERNAL RELATIONS</span>
-	</div>
 
 	<div class="enquiries-content">
-		<p class="enquiries-eyebrow">STRATEGIC ALIGNMENT OPPORTUNITIES</p>
+		<p class="enquiries-eyebrow">PARTNER WITH US</p>
 
 		<h2>YOUR ORGANISATION. OUR HYDRATION. SHAREHOLDER VALUE.</h2>
 
@@ -284,7 +265,7 @@
 
 	<div class="enquiries-footer">
 		<span>BUILDING TOMORROW'S HYDRATION ECOSYSTEM™</span>
-		<span>PLEASE ALLOW 3–5 BUSINESS QUARTERS</span>
+		<span>PLEASE ALLOW 3–5 BUSINESS DAYS</span>
 	</div>
 </section>
 
@@ -313,7 +294,6 @@
 
 <style>
 
-/* PARTNERSHIPS — GLOBAL HYDRATION DIVISION */
 
 .partners-header {
     padding: 3rem 8vw 0;
@@ -333,12 +313,6 @@
     margin-bottom: 5rem;
 }
 
-.partners-topline .eyebrow,
-.partners-status {
-    font-size: 0.7rem;
-    font-weight: 900;
-    letter-spacing: 0.1em;
-}
 
 .partners-status {
     padding: 0.65rem 0.8rem;
@@ -511,16 +485,6 @@
 
 .partners-directory-heading h2 span {
     color: var(--hot-pink);
-}
-
-.partners-directory-heading > p {
-    max-width: 220px;
-    margin: 0;
-    font-size: 0.65rem;
-    font-weight: 900;
-    letter-spacing: 0.08em;
-    line-height: 1.6;
-    text-align: right;
 }
 
 .partner-grid {
@@ -948,9 +912,6 @@
         margin-bottom: 2.5rem;
     }
 
-    .partners-directory-heading > p {
-        text-align: left;
-    }
 
     .partner-grid {
         grid-template-columns: 1fr;

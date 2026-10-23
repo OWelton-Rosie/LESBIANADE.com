@@ -4,8 +4,8 @@
 </svelte:head>
 
 <section class="page-header">
-	<p class="eyebrow">PEOPLE &amp; CULTURE · FRAMEWORK 067-DEI</p>
-	<h1>EVERYONE<br /><span>BELONGS.*</span></h1>
+	<p class="eyebrow">DIVERSITY, EQUITY &amp; INCLUSION</p>
+	<h1>EVERYONE<br /><span>BELONGS.</span></h1>
 	<p>We believe great ideas come from people with different experiences, perspectives, and backgrounds.</p>
 	<p>We are committed to building a workplace where people are treated fairly and with respect.</p>
 </section>
@@ -13,7 +13,7 @@
 <section class="dei-content">
 	<div><p class="eyebrow">OUR COMMITMENT</p><h2>DIFFERENT<br />BY <span>DESIGN.</span></h2></div>
 	<div>
-		<p>LESBIANADE® is committed to creating an environment where people can contribute, grow, and be themselves, preferably without needing to complete Form HR-067B in triplicate.</p>
+		<p>LESBIANADE® is committed to creating an environment where people can contribute, grow, and be themselves.</p>
 		<p>We seek to build teams that reflect the communities we serve and to ensure everyone has an equal opportunity to participate in our organisation, and to make sure people can contribute fully to their work.</p>
 		<p>Our inclusion strategy is embedded across recruitment, employment, partnerships, suppliers, and wider business activities. We aim to build an inclusive workplace through fair recruitment, respectful conduct and ongoing review of our policies.</p>
 	</div>

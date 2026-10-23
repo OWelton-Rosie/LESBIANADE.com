@@ -5,7 +5,7 @@
 
 <section class="hero">
 	<div class="hero-content">
-		<p class="eyebrow">EST. 1967 · LESBOS, GREECE · LISTED ON NO EXCHANGE</p>
+		<p class="eyebrow">EST. 1967 · LESBOS, GREECE</p>
 		<h1>FUEL THE<br /><em>UPRISING™</em></h1>
 		<p class="hero-text">
 			A distinctive sports hydration brand for active people, built around bold flavours and an unapologetically independent point of view.
