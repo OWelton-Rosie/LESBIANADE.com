@@ -57,11 +57,9 @@
 			<a href="/company/partners" onclick={closeMenu}>PARTNERS</a>
 			<a href="/company/history" onclick={closeMenu}>OUR HISTORY</a>
 			<a href="/company/sustainability" onclick={closeMenu}>SUSTAINABILITY</a>
-			<a href="/company/careers" onclick={closeMenu}>CAREERS</a>
 			<a href="/contact" onclick={closeMenu}>CONTACT</a>
 		</div>
 	</nav>
-	<p class="nav-disclaimer">*Shipping, progress, and the word “free” are terms and conditions apply.</p>
 </header>
 
 <style>
@@ -553,33 +551,8 @@ header:has(.navbar) {
 }
 
 
-/* CORPORATE QUALIFICATIONS */
 
-.nav-disclaimer {
-    margin: 0;
-    padding: 0.55rem 5vw 0.65rem;
-    border-bottom: 1px solid #d8d0cb;
-    background: #f1e9e4;
-    color: #6c625f;
-    font-size: 0.58rem;
-    font-weight: 600;
-    line-height: 1.45;
-    letter-spacing: 0.025em;
-    text-align: center;
-}
 
-.nav-disclaimer::before {
-    content: "† ";
-    color: var(--hot-pink);
-    font-weight: 900;
-}
-
-@media (max-width: 700px) {
-    .nav-disclaimer {
-        padding: 0.55rem 6vw;
-        font-size: 0.52rem;
-    }
-}
 
 /* ========================================
    ANNOUNCEMENT BAR
@@ -1065,35 +1038,6 @@ header:has(.navbar) {
     .search-input button,
     .announcement-bar a {
         transition: none;
-    }
-}
-
-
-/* CORPORATE QUALIFICATIONS */
-
-.nav-disclaimer {
-    margin: 0;
-    padding: 0.55rem 5vw 0.65rem;
-    border-bottom: 1px solid #d8d0cb;
-    background: #f1e9e4;
-    color: #6c625f;
-    font-size: 0.58rem;
-    font-weight: 600;
-    line-height: 1.45;
-    letter-spacing: 0.025em;
-    text-align: center;
-}
-
-.nav-disclaimer::before {
-    content: "† ";
-    color: var(--hot-pink);
-    font-weight: 900;
-}
-
-@media (max-width: 700px) {
-    .nav-disclaimer {
-        padding: 0.55rem 6vw;
-        font-size: 0.52rem;
     }
 }
 </style>
