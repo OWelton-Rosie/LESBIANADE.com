@@ -11,8 +11,8 @@
 			A distinctive sports hydration brand for active people, built around bold flavours and an unapologetically independent point of view.
 		</p>
 		<div class="hero-buttons">
-			<a href="/company/products" class="button primary">EXPLORE THE PORTFOLIO →</a>
-			<a href="/company/science" class="button secondary">ACCESS THE SCIENCE</a>
+			<a href="/company/products" class="button primary">EXPLORE OUR FLAVOURS →</a>
+			<a href="/company/science" class="button secondary">VIEW THE SCIENCE</a>
 		</div>
 		<p class="hero-microcopy">FORWARD-LOOKING HYDRATION STATEMENTS MAY CONTAIN WATER.</p>
 	</div>
