@@ -61,6 +61,7 @@
 </script>
 
 <svelte:head>
+	<link rel="icon" href="/assets/brand/favicon.png" />
 </svelte:head>
 
 <Navbar />

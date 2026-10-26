@@ -1,49 +1,58 @@
 
 <script>
-    const products = [
-        {
-            number: '01',
-            name: 'TRADITIONAL',
-            tagline: 'THE CLASSIC. THE ONE YOUR PARENTS WARNED ABOUT.',
-            class: 'traditional'
-        },
-                {
-            number: '02',
-            name: 'U-HAUL BY FRIDAY',
-            tagline: 'NO TRIAL PERIOD. NO WAITING. NO GOING BACK.',
-            class: 'strawberry'
-        },
-        {
-            number: '03',
-            name: 'LESBIAN AGENDA',
-            tagline: 'HYDRATION, REIMAGINED.',
-            class: 'agenda'
-        },
-        {
-            number: '04',
-            name: 'DOC MARTENS & FEELINGS',
-            tagline: "WE CAN'T EXPLAIN IT EITHER.",
-            class: 'docs'
-        },
-        {
-            number: '05',
-            name: 'FLANNEL DYNASTY',
-            tagline: 'SOFT ON THE OUTSIDE. SEASONLESS ON THE INSIDE.',
-            class: 'flannel'
-        },
-                {
-            number: '06',
-            name: 'CARABINER CRUSH',
-            tagline: 'CLIP IN. CHUG OUT.',
-            class: 'carabiner'
-        },
-        {
-            number: '07',
-            name: 'JOINT MORTGAGE',
-            tagline: 'A LONG-TERM COMMITMENT TO HYDRATION.',
-            class: 'mortgage'
-        }
-    ];
+
+const products = [
+    {
+        number: '01',
+        name: 'TRADITIONAL',
+        tagline: 'THE CLASSIC. THE ONE YOUR PARENTS WARNED ABOUT.',
+        class: 'traditional',
+        photo: '/assets/product_photos/traditional.png'
+    },
+    {
+        number: '02',
+        name: 'U-HAUL BY FRIDAY',
+        tagline: 'NO TRIAL PERIOD. NO WAITING. NO GOING BACK.',
+        class: 'strawberry',
+        photo: '/assets/product_photos/U-Haul.png'
+    },
+    {
+        number: '03',
+        name: 'LESBIAN AGENDA',
+        tagline: 'HYDRATION, REIMAGINED.',
+        class: 'agenda',
+        photo: '/assets/product_photos/agenda.png'
+    },
+    {
+        number: '04',
+        name: 'DOC MARTENS & FEELINGS',
+        tagline: "WE CAN'T EXPLAIN IT EITHER.",
+        class: 'docs',
+        photo: '/assets/product_photos/docs.png'
+    },
+    {
+        number: '05',
+        name: 'FLANNEL DYNASTY',
+        tagline: 'SOFT ON THE OUTSIDE. SEASONLESS ON THE INSIDE.',
+        class: 'flannel',
+        photo: '/assets/product_photos/flannel.png'
+    },
+    {
+        number: '06',
+        name: 'CARABINER CRUSH',
+        tagline: 'CLIP IN. CHUG OUT.',
+        class: 'carabiner',
+        photo: '/assets/product_photos/carabiner.png'
+    },
+    {
+        number: '07',
+        name: 'JOINT MORTGAGE',
+        tagline: 'A LONG-TERM COMMITMENT TO HYDRATION.',
+        class: 'mortgage',
+        photo: '/assets/product_photos/mortgage.png'
+    }
+];
+
 </script>
 
 <svelte:head>
@@ -60,18 +69,31 @@
 </section>
 
 <section class="products-page">
-    {#each products as product}
-        <article class={`product-card ${product.class}`}>
-            <span class="product-number">{product.number}</span>
 
-            <div class="product-orb"></div>
+{#each products as product}
+    <article class={`product-card ${product.class}`}>
+        <span class="product-number">{product.number}</span>
 
-            <div class="product-information">
-                <h2>{product.name}</h2>
-                <span>{product.tagline}</span>
+        {#if product.photo}
+            <div class="product-image">
+                <img
+                    src={product.photo}
+                    alt={`${product.name} LESBIANADE bottle`}
+                    loading={product.number === '01' ? 'eager' : 'lazy'}
+                    decoding="async"
+                />
             </div>
-        </article>
-    {/each}
+        {:else}
+            <div class="product-orb" aria-hidden="true"></div>
+        {/if}
+
+        <div class="product-information">
+            <h2>{product.name}</h2>
+            <span>{product.tagline}</span>
+        </div>
+    </article>
+{/each}
+
 </section>
 
 <section class="products-footer">
@@ -475,6 +497,61 @@
 
     .product-information h2 {
         font-size: clamp(2rem, 9vw, 3rem);
+    }
+}
+
+
+.product-image {
+    position: absolute;
+    inset: 2.5rem 0 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    pointer-events: none;
+}
+
+.product-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.04);
+}
+
+/* Keep product text readable above the image */
+
+.product-information {
+    position: relative;
+    z-index: 1;
+    padding-top: 0.75rem;
+}
+
+/* The image replaces the orb, so hide any unused orb */
+
+.product-image ~ .product-orb {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .product-image {
+        inset: 2.5rem 0 7rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .product-image img {
+        transition: none;
+    }
+
+    .product-card:hover .product-image img {
+        transform: none;
     }
 }
 
