@@ -49,6 +49,7 @@
 	<h2>HYDRATION<br /><span>FOR EVERYONE.</span></h2>
 	<p>Explore the range and discover the story behind the brand.</p>
 	<a href="/company/products" class="button primary">EXPLORE PRODUCTS →</a>
+    <a href="/company/about" class="button secondary">LEARN ABOUT US</a>
 </section>
 
 <style>.hero {

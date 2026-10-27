@@ -55,7 +55,7 @@
 			<a href="/company/products" onclick={closeMenu}>PRODUCTS</a>
 			<a href="/company/science" onclick={closeMenu}>INGREDIENTS</a>
 			<a href="/company/partners" onclick={closeMenu}>PARTNERS</a>
-			<a href="/company/history" onclick={closeMenu}>OUR HISTORY</a>
+			<a href="/company/about" onclick={closeMenu}>ABOUT US</a>
 			<a href="/company/sustainability" onclick={closeMenu}>SUSTAINABILITY</a>
 			<a href="/contact" onclick={closeMenu}>CONTACT</a>
 		</div>
