@@ -46,7 +46,6 @@
 
 <svelte:head>
 	<link rel="icon" href="/assets/brand/favicon.png" />
-	<link rel="canonical" href="https://lesbianade.com/" />
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
