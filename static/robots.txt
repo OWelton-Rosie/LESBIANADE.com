@@ -1,3 +1,1 @@
-# allow crawling everything by default
-User-agent: *
-Disallow:
+# Allow public pages to be crawled.\nUser-agent: *\nAllow: /\n\nSitemap: https://lesbianade.com/sitemap.xml\n
