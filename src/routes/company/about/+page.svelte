@@ -190,7 +190,7 @@
         the LESBIANADE® fictional brand universe.
     </p>
 
-    <a href="/companyhistory" class="section-link">
+    <a href="/company/history" class="section-link">
         EXPLORE OUR FULL HISTORY <span aria-hidden="true">↗</span>
     </a>
 </section>
@@ -205,7 +205,7 @@
         hydration strategy.
     </p>
 
-    <a href="/products" class="about-cta">
+    <a href="/company/products" class="about-cta">
         EXPLORE THE RANGE <span aria-hidden="true">↗</span>
     </a>
 </section>
