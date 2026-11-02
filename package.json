@@ -7,7 +7,8 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''"
+		"prepare": "svelte-kit sync || echo ''",
+		"check-links": "node scripts/check_links.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^8.0.0",
@@ -18,10 +19,16 @@
 		"vite": "^8.0.16"
 	},
 	"dependencies": {
-		"@lucide/svelte": "^1.33.0"
+		"@lucide/svelte": "^1.33.0",
+		"node-html-parser": "^9.0.6"
 	},
 	"imports": {
 		"#lib": "./src/lib/index.js",
 		"#lib/*": "./src/lib/*"
+	},
+	"allowScripts": {
+		"esbuild@0.28.2": true,
+		"fsevents@2.3.3": true,
+		"workerd@1.20261019.1": true
 	}
 }
