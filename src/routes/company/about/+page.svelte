@@ -111,7 +111,7 @@
                 doing them with a dedicated strategy department.
             </p>
 
-            <a href="/products" class="section-link">
+            <a href="/companyproducts" class="section-link">
                 MEET THE RANGE <span aria-hidden="true">↗</span>
             </a>
         </div>
@@ -190,7 +190,7 @@
         the LESBIANADE® fictional brand universe.
     </p>
 
-    <a href="/history" class="section-link">
+    <a href="/companyhistory" class="section-link">
         EXPLORE OUR FULL HISTORY <span aria-hidden="true">↗</span>
     </a>
 </section>
